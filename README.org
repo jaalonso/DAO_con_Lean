@@ -1,0 +1,20 @@
+#+TITLE: Ejercicios de Matemáticas con Lean
+#+OPTIONS: ^:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
+#+LATEX_CLASS: book-noparts
+#+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
+
+* Contenido                                                             :TOC:
+- [[#introducción][Introducción]]
+
+* Introducción
+
+El objetivo de este trabajo es presentar el uso de Lean como soporte para la
+resolución de ejercicios de Matemáticas. Está basado en el proyecto
+[[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la Comunidad Lean.
+ 
+# ** Creación del proyecto
+# 
+# + Se crea con 
+#   : leanproject new Ejercicios_de_Matematicas_con_Lean
+

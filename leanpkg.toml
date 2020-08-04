@@ -1,0 +1,8 @@
+[package]
+name = "Ejercicios_de_Matematicas_con_Lean"
+version = "0.1"
+lean_version = "leanprover-community/lean:3.18.4"
+path = "src"
+
+[dependencies]
+mathlib = {git = "https://github.com/leanprover-community/mathlib", rev = "b4a6651f25ea367f965eb72487e9d69a3e89f362"}
