@@ -3,6 +3,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
+#+LINK: lean https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/
 
 * Contenido                                                             :TOC:
 - [[#introducción][Introducción]]
@@ -33,6 +34,7 @@ Massot]].
 En este capítulos se presenta el razonamiento con igualdades mediante
 reescritura. 
 
-+ [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][Transitividad de la igualdad]].
++ [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][Transitividad de la igualdad]] ([[https://leanprover-community.github.io/lean-web-editor/#url=https%3A%2F%2Fraw.githubusercontent.com%2Fjaalonso%2FDAO_con_Lean%2Fmaster%2Fsrc%2F1_Igualdad%2FTransitividad_de_la_igualdad.lean][en Lean]]) 
 #+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean
 
+[[lean:1_Igualdad/Transitividad_de_la_igualdad.lean][Lean Web]]
