@@ -6,14 +6,6 @@
 
 import data.real.basic
 
-example 
-  (x y z : ℝ) 
-  (h : x = y) 
-  (h' : y = z) 
-  : x = z :=
-sorry
-
-
 -- 1ª demostración
 -- ===============
 
