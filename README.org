@@ -6,7 +6,6 @@
 
 * Contenido                                                             :TOC:
 - [[#introducción][Introducción]]
-- [[#introducción-1][Introducción]]
 
 * Introducción
 
@@ -19,5 +18,5 @@ resolución de ejercicios de Matemáticas. Está basado en el proyecto
 # + Se crea con 
 #   : leanproject new Ejercicios_de_Matematicas_con_Lean
 
-* Introducción
-#+INCLUDE: "./src/0_Introduccion.lean" src lean
+# * Introducción
+# #+INCLUDE: "./src/0_Introduccion.lean" src lean
