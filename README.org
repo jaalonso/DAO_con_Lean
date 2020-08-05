@@ -11,7 +11,7 @@
 
 El objetivo de este trabajo es presentar una introducción a la demostración
 asistida por ordenador mediante la resolución con [[https://leanprover.github.io/][Lean]] de una colección de
-ejercicios. Está basado en el proyecto [[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la Comunidad Lean que,
+ejercicios. Está basado en el proyecto [[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la [[https://leanprover-community.github.io/][Comunidad Lean]] que,
 a su vez, se basa en [[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiques formalisées]] de [[https://www.imo.universite-paris-saclay.fr/~pmassot/index.html][Patrick
 Massot]].
  
