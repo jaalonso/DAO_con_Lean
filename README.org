@@ -1,4 +1,4 @@
-#+TITLE: Ejercicios de Matemáticas con Lean
+#+TITLE: DAO (Demostración Asistida por Ordenador) con Lean
 #+OPTIONS: ^:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
 #+LATEX_CLASS: book-noparts
@@ -6,6 +6,7 @@
 
 * Contenido                                                             :TOC:
 - [[#introducción][Introducción]]
+- [[#introducción-1][Introducción]]
 
 * Introducción
 
@@ -18,3 +19,5 @@ resolución de ejercicios de Matemáticas. Está basado en el proyecto
 # + Se crea con 
 #   : leanproject new Ejercicios_de_Matematicas_con_Lean
 
+* Introducción
+#+INCLUDE: "./src/0_Introduccion.lean" src lean
