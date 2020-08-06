@@ -16,8 +16,24 @@
 El objetivo de este trabajo es presentar una introducción a la demostración
 asistida por ordenador mediante la resolución con [[https://leanprover.github.io/][Lean]] de una colección de
 ejercicios. Está basado en el proyecto [[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la [[https://leanprover-community.github.io/][Comunidad Lean]] que,
-a su vez, se basa en [[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiques formalisées]] de [[https://www.imo.universite-paris-saclay.fr/~pmassot/index.html][Patrick
-Massot]].
+a su vez, se basa en [[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiques formalisées]] de 
+[[https://www.imo.universite-paris-saclay.fr/~pmassot/index.html][Patrick Massot]].
+
+Más concretamente, su objetivo es servir para introducir la DAO con Lean en las
+clases de la asignatura de [[https://www.cs.us.es/~jalonso/cursos/m-ra-19/][Razonamiento automático]] del [[http://master.cs.us.es/M%C3%A1ster_Universitario_en_L%C3%B3gica,_Computaci%C3%B3n_e_Inteligencia_Artificial][Máster Universitario en
+Lógica, Computación e Inteligencia Artificial]] de la Universidad de Sevilla. Por
+tanto, el único prerrequisito es, como en el Máster, cierta madurez matemática
+como la que deben tener los alumnos de los Grados de Matemática y de
+Informática.
+
+El estilo de la exposición es a través de ejercicios. En cada ejercicios se
+muestran distintas pruebas del mismo resultado y se comentan las tácticas
+conforme se van usando y los lemas utilizados en las demostraciones.
+
+Además, en cada ejercicio hay un enlace al código de la teoría (con el npmbre
+del ejercicio) y a su lado otro enlace (llamado "en Lean Web") que al pulsarlo
+abre el ejercicio en Lean (en una sesión del navegador) de forma que se puede
+navegar y editar soluciones alternativas.
  
 # ** Creación del proyecto
 # 
