@@ -7,8 +7,9 @@
 * Contenido                                                             :TOC:
 - [[#introducción][Introducción]]
 - [[#igualdad][Igualdad]]
-- [[#resumen-de-tácticas][Resumen de tácticas]]
-- [[#resumen-de-teoremas][Resumen de teoremas]]
+- [[#apéndices][Apéndices]]
+  - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
+  - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
 
 * Introducción
 
@@ -41,8 +42,10 @@ reescritura.
 + [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][Propiedades asociativa y conmutativa]] ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][en Lean Web]])
 #+INCLUDE: "./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean" src lean
 
-* Resumen de tácticas
+* Apéndices
+
+** [[./Tacticas.org][Resumen de tácticas usadas]]
 #+INCLUDE: "./Tacticas.org"
 
-* Resumen de teoremas
+** [[./Teoremas.org][Resumen de teoremas usados]]
 #+INCLUDE: "./Teoremas.org"
