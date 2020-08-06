@@ -1,0 +1,9 @@
+# Resumen de teoremas
+
+Los teoremas utilizados son los siguientes:
+
+#+begin_src lean
++ eq.trans : a = b → b = c → a = c
++ mul_comm : ∀ (a b : ℝ), a * b = b * a 
++ mul_assoc : ∀ (a b c : ℝ), a * b * c = a * (b * c)   
+#+end_src

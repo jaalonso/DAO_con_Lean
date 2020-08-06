@@ -7,6 +7,8 @@
 * Contenido                                                             :TOC:
 - [[#introducción][Introducción]]
 - [[#igualdad][Igualdad]]
+- [[#resumen-de-tácticas][Resumen de tácticas]]
+- [[#resumen-de-teoremas][Resumen de teoremas]]
 
 * Introducción
 
@@ -35,3 +37,12 @@ reescritura.
 
 + [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][Transitividad de la igualdad]] ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Transitividad_de_la_igualdad.lean][en Lean Web]]) 
 #+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean
+
++ [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][Propiedades asociativa y conmutativa]] ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][en Lean Web]])
+#+INCLUDE: "./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean" src lean
+
+* Resumen de tácticas
+#+INCLUDE: "./Tacticas.org"
+
+* Resumen de teoremas
+#+INCLUDE: "./Teoremas.org"

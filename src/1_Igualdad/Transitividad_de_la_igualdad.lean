@@ -140,10 +140,6 @@ eq.trans h h'
 -- + Se ha usado el lema
 --   + eq.trans : a = b → b = c → a = c
 
--- Comprobación:
-variables (a b c : ℝ)
-#check @eq.trans ℝ a b c
-
 -- 6ª demostración
 -- ===============
 

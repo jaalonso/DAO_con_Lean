@@ -1,0 +1,13 @@
++ =exact h= concluye la demostración si =h= es del tipo de la conclusión.
++ =finish= demuestra la conclusión de forma automática.
++ =linarith= demuestra la conclusión mediante aritmética lineal.
++ =ring= demuestra la conclusión normalizando las expresiones con las regñlas de
+  los anillos.
++ =rw h= cuando =h= es una igualdad sustituye en la conclusión el término
+  izquierdo de =h= por el derecho.
++ =rw ← h= cuando =h= es una igualdad sustituye en la conclusión el término
+  derecho de =h= por el izquierdo
++ =rw h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
+  término izquierdo de =h= por el derecho.
++ =rw ← h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
+  término derecho de =h= por el izquierdo
