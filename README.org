@@ -38,6 +38,11 @@ del ejercicio) y a su lado otro enlace (llamado "en Lean Web") que al pulsarlo
 abre el ejercicio en Lean (en una sesión del navegador) de forma que se puede
 navegar y editar soluciones alternativas.
  
+El trabajo se presenta en 3 formas:
++ Como un [[https://www.cs.us.es/~jalonso/apuntes/DAO_con_Lean/DAO_con_Lean.pdf][libro en PDF]]
++ Como una [[https://www.cs.us.es/~jalonso/apuntes/DAO_con_Lean/README.html][página HTML]].
++ Como un [[https://github.com/jaalonso/DAO_con_Lean][proyecto en GitHub]].  
+
 # ** Creación del proyecto
 # 
 # + Se crea con 
