@@ -6,8 +6,8 @@
 
 import data.real.basic
 
--- 1ª demostración
--- ===============
+-- 1ª demostración (con reescritura)
+-- =================================
 
 example 
   (x y z : ℝ) 
@@ -37,8 +37,8 @@ exact h',
 -- + La táctica (exact h) concluye la demostración si h es del tipo de
 --   la conclusión.
 
--- 2ª demostración
--- ===============
+-- 2ª demostración (con reescritura inversa)
+-- =========================================
 
 example 
   (x y z : ℝ) 
@@ -66,8 +66,8 @@ exact h,
 -- + La táctica (rw ← h) cuando h es una igualdad sustituye en la
 --   conclusión el término derecho de h por el izquierdo
 
--- 3ª demostración
--- ===============
+-- 3ª demostración (con reescritura en hipótesis)
+-- ==============================================
 
 example 
   (x y z : ℝ) 
@@ -96,8 +96,8 @@ exact h,
 -- + La táctica (rw h1 at h2) cuando h1 es una igualdad sustituye en la
 --   hipótesis h2 el término izquierdo de h1 por el derecho.
 
--- 4ª demostración
--- ===============
+-- 4ª demostración (con reescritura inversa en hipótesis)
+-- ======================================================
 
 example 
   (x y z : ℝ) 
@@ -126,8 +126,8 @@ exact h',
 -- + La táctica (rw ← h1 at h2) cuando h1 es una igualdad sustituye en la
 --   hipótesis h2 el término derecho de h1 por el izquierdo
 
--- 5ª demostración
--- ===============
+-- 5ª demostración (con un término)
+-- ================================
 
 example 
   (x y z : ℝ) 
@@ -140,8 +140,8 @@ eq.trans h h'
 -- + Se ha usado el lema
 --   + eq.trans : a = b → b = c → a = c
 
--- 6ª demostración
--- ===============
+-- 6ª demostración (automática con linarith)
+-- =========================================
 
 example 
   (x y z : ℝ) 
@@ -154,8 +154,8 @@ by linarith
 -- + La táctica linarith demuestra la conclusión mediante aritmética
 --   lineal. 
 
--- 7ª demostración
--- ===============
+-- 7ª demostración (automática con finish)
+-- =======================================
 
 example 
   (x y z : ℝ) 

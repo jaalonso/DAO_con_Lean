@@ -6,4 +6,5 @@ Los teoremas utilizados son los siguientes:
 + eq.trans : a = b → b = c → a = c
 + mul_comm : ∀ (a b : ℝ), a * b = b * a 
 + mul_assoc : ∀ (a b c : ℝ), a * b * c = a * (b * c)   
++ two_mul : 2 * a = a + a
 #+end_src

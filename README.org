@@ -7,6 +7,9 @@
 * Contenido                                                             :TOC:
 - [[#introducción][Introducción]]
 - [[#igualdad][Igualdad]]
+  - [[#prueba-mediante-reescritura][Prueba mediante reescritura]]
+  - [[#prueba-con-lemas-y-mediante-encadenamiento-de-ecuaciones][Prueba con lemas y mediante encadenamiento de ecuaciones]]
+  - [[#teorema-aritmético-con-hipótesis-y-uso-de-lemas][Teorema aritmético con hipótesis y uso de lemas]]
 - [[#apéndices][Apéndices]]
   - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
   - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
@@ -16,7 +19,7 @@
 El objetivo de este trabajo es presentar una introducción a la demostración
 asistida por ordenador mediante la resolución con [[https://leanprover.github.io/][Lean]] de una colección de
 ejercicios. Está basado en el proyecto [[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la [[https://leanprover-community.github.io/][Comunidad Lean]] que,
-a su vez, se basa en [[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiques formalisées]] de 
+a su vez, se basa en [[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiques for>malisées]] de 
 [[https://www.imo.universite-paris-saclay.fr/~pmassot/index.html][Patrick Massot]].
 
 Más concretamente, su objetivo es servir para introducir la DAO con Lean en las
@@ -52,11 +55,17 @@ navegar y editar soluciones alternativas.
 En este capítulos se presenta el razonamiento con igualdades mediante
 reescritura. 
 
-+ [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][Transitividad de la igualdad]] ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Transitividad_de_la_igualdad.lean][en Lean Web]]) 
+** Prueba mediante reescritura
++ Enlaces al [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Transitividad_de_la_igualdad.lean][sesión en Lean Web]].
 #+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean
 
-+ [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][Propiedades asociativa y conmutativa]] ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][en Lean Web]])
+** Prueba con lemas y mediante encadenamiento de ecuaciones
++ Enlaces al [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][sesión en Lean Web]].
 #+INCLUDE: "./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean" src lean
+
+** Teorema aritmético con hipótesis y uso de lemas
++ Enlaces al [[./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][sesión en Lean Web]].
+#+INCLUDE: "./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean" src lean
 
 * Apéndices
 
