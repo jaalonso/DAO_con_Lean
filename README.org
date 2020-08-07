@@ -18,7 +18,7 @@
 
 El objetivo de este trabajo es presentar una introducción a la DAO (Demostración
 Asistida con Ordenador) usando [[https://leanprover.github.io/][Lean]] para usarla en las clases de la asignatura
-de [[https://www.cs.us.es/~jalonso/cursos/m-ra-19/][Razonamiento automático]] del [[http://master.cs.us.es/M%C3%A1ster_Universitario_en_L%C3%B3gica,_Computaci%C3%B3n_e_Inteligencia_Artificial][Máster Universitario en Lógica, Computación e
+de [[https://www.cs.us.es/~jalonso/cursos/m-ra-19/][Razonamiento automático]] del [[http://www.cs.us.es/blogs/mulcia/docencia-plan-estudios/][Máster Universitario en Lógica, Computación e
 Inteligencia Artificial]] de la Universidad de Sevilla. Por tanto, el único
 prerrequisito es, como en el Máster, cierta madurez matemática como la que deben
 tener los alumnos de los Grados de Matemática y de Informática.
