@@ -4,7 +4,16 @@
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
 
-# * Contenido                                                             :TOC:
+* Contenido                                                             :TOC:
+- [[#introducción][Introducción]]
+- [[#igualdad][Igualdad]]
+  - [[#prueba-mediante-reescritura][Prueba mediante reescritura]]
+  - [[#prueba-con-lemas-y-mediante-encadenamiento-de-ecuaciones][Prueba con lemas y mediante encadenamiento de ecuaciones]]
+  - [[#teorema-aritmético-con-hipótesis-y-uso-de-lemas][Teorema aritmético con hipótesis y uso de lemas]]
+  - [[#ejercicios-sobre-aritmética-real][Ejercicios sobre aritmética real]]
+- [[#apéndices][Apéndices]]
+  - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
+  - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
 
 * Introducción
 
