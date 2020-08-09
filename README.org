@@ -4,15 +4,7 @@
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
 
-* Contenido                                                             :TOC:
-- [[#introducción][Introducción]]
-- [[#igualdad][Igualdad]]
-  - [[#prueba-mediante-reescritura][Prueba mediante reescritura]]
-  - [[#prueba-con-lemas-y-mediante-encadenamiento-de-ecuaciones][Prueba con lemas y mediante encadenamiento de ecuaciones]]
-  - [[#teorema-aritmético-con-hipótesis-y-uso-de-lemas][Teorema aritmético con hipótesis y uso de lemas]]
-- [[#apéndices][Apéndices]]
-  - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
-  - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
+# * Contenido                                                             :TOC:
 
 * Introducción
 
@@ -68,6 +60,10 @@ reescritura.
 ** Teorema aritmético con hipótesis y uso de lemas
 + Enlaces al [[./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][sesión en Lean Web]].
 #+INCLUDE: "./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean" src lean
+
+** Ejercicios sobre aritmética real
++ Enlaces al [[./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean" src lean
 
 * Apéndices
 

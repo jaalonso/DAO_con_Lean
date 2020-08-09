@@ -3,8 +3,17 @@
 Los teoremas utilizados son los siguientes:
 
 #+begin_src lean
-+ eq.trans : a = b → b = c → a = c
-+ mul_comm : ∀ (a b : ℝ), a * b = b * a 
-+ mul_assoc : ∀ (a b c : ℝ), a * b * c = a * (b * c)   
-+ two_mul : 2 * a = a + a
++ add_assoc : (a + b) + c = a + (b + c) 
++ add_comm  : a + b = b + a 
++ add_mul   : (a + b) * c = a * c + b * c 
++ add_sub   : a + (b - c) = (a + b) - c
++ add_zero  : a + 0 = a
++ eq.trans  : a = b → b = c → a = c
++ mul_assoc : (a * b) * c = a * (b * c)   
++ mul_comm  : a * b = b * a 
++ mul_sub   : a * (b - c) = a * b - a * c 
++ pow_two   : a^2 = a * a
++ sub_self  : a - a = 0
++ sub_sub   : (a - b) - c = a - (b + c)
++ two_mul   : 2 * a = a + a
 #+end_src
