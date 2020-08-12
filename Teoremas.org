@@ -8,7 +8,9 @@ Los teoremas utilizados son los siguientes:
 + add_mul   : (a + b) * c = a * c + b * c 
 + add_sub   : a + (b - c) = (a + b) - c
 + add_zero  : a + 0 = a
++ and.left  : P ∧ Q → P
 + eq.trans  : a = b → b = c → a = c
++ id        : P → P
 + mul_assoc : (a * b) * c = a * (b * c)   
 + mul_comm  : a * b = b * a 
 + mul_sub   : a * (b - c) = a * b - a * c 

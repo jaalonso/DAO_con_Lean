@@ -1,13 +1,47 @@
++ =assumption= concluye la demostración si la conclusión coincide con alguna de
+  las hipótesis.
 + =exact h= concluye la demostración si =h= es del tipo de la conclusión.
++ =(cases h with h1 h2)=, cuando la hipótesis =h= es una equivalencia aplica la
+  regla de eliminación de la equivalencia; es decir, si =h= es =(P ↔ Q)=,
+  entonces elimina =h= y añade las hipótesis =(h1 : P → Q)= y =(h2 : Q → P)=.
++ =(cases h with h1 h2)=, cuando la hipótesis =h= es una conjunción aplica la
+  regla de eliminación de la conjunción; es decir, si =h= es =(P ∧ Q)=,
+  entonces elimina =h= y añade las hipótesis =(h1 : P)= y =(h2 : Q)=.
++ =intro h=, cuando la conclusión es una implicación, aplica la regla de
+  introducción de la implicación; es decir, si la conclusión es =(P → Q)=
+  entonces añade la hipótesis =(h : P)= y cambia la conclusión a =Q=.
++ =rintro ⟨h1, h2⟩=, cuando la conclusión es una implicación cuyo antecedente es
+  una conjunción, aplica las reglsa de introducción de la implicación y de
+  eliminación de la conjunción; es decir, si la conclusión es =(P ∧ Q → R)=
+  entonces añade las hipótesis =(h1 : P)= y =(h2 : Q)= y cambia la conclusión a
+  =R=.
 + =finish= demuestra la conclusión de forma automática.
 + =linarith= demuestra la conclusión mediante aritmética lineal.
 + =ring= demuestra la conclusión normalizando las expresiones con las regñlas de
   los anillos.
 + =rw h= cuando =h= es una igualdad sustituye en la conclusión el término
   izquierdo de =h= por el derecho.
++ =rw h=, cuando =h= es una equivalencia como =(P ↔ Q)=, sustituye en la
+  conclusión =P= por =Q=.
 + =rw ← h= cuando =h= es una igualdad sustituye en la conclusión el término
   derecho de =h= por el izquierdo
 + =rw h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
   término izquierdo de =h= por el derecho.
++ =rw h at h'= cuando =h= es una equivalencia como =(P ↔ Q)= sustituye en la
+  hipótesis =h'= la fórmula =P= por =Q=.
 + =rw ← h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
   término derecho de =h= por el izquierdo
++ =rw ← h at h'= cuando =h= es una equivalencia como =(P ↔ Q)= sustituye en la
+  hipótesis =h'= la fórmula =Q= por =P=.
++ =simp= aplica reglas de simplificación a la conclusión.
++ =solve_by_elim= intenta demostrar el objetivo aplicándole reglas de
+  eliminación. 
++ =tauto= demuestra automáticamente las tautologías.
+
+** Composiciones y descomposiciones
++ Si =h1= es una demostración de =(P → Q)= y =h2= es una demostración de =P=,
+  entonces =(h1 h2)= es una demostración de =Q=.
++ Si =h= es la conjunción =(P ∧ Q)=, entonces =h.1= es =P= y =h.2= es =Q=. 
++ Si =h= es la equivalencia =(P ↔ Q)=, entonces =h.1= es =(P → Q)= y =h.2= es 
+  =(Q → P)=. 
+

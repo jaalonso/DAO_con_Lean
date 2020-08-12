@@ -11,9 +11,14 @@
   - [[#prueba-con-lemas-y-mediante-encadenamiento-de-ecuaciones][Prueba con lemas y mediante encadenamiento de ecuaciones]]
   - [[#teorema-aritmético-con-hipótesis-y-uso-de-lemas][Teorema aritmético con hipótesis y uso de lemas]]
   - [[#ejercicios-sobre-aritmética-real][Ejercicios sobre aritmética real]]
+- [[#reglas-de-las-conectivas-lógicas][Reglas de las conectivas lógicas]]
+  - [[#reglas-de-la-implicación][Reglas de la implicación]]
+  - [[#reglas-de-la-equivalencia][Reglas de la equivalencia]]
+  - [[#reglas-de-la-conjunción][Reglas de la conjunción]]
 - [[#apéndices][Apéndices]]
   - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
   - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
+  - [[#estilos-de-demostración][Estilos de demostración]]
 
 * Introducción
 
@@ -38,8 +43,8 @@ El trabajo se presenta en 3 formas:
 + Como un [[https://github.com/jaalonso/DAO_con_Lean][proyecto en GitHub]].  
 
 El trabajo se basa fundamentalmente en el proyecto [[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la
-[[https://leanprover-community.github.io/][Comunidad Lean]] que, a su vez, se basa en [[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiques
-formalisées]] de [[https://www.imo.universite-paris-saclay.fr/~pmassot/index.html][Patrick Massot]].
+[[https://leanprover-community.github.io/][Comunidad Lean]] que, a su vez, se basa en el curso 
+[[https://www.imo.universite-paris-saclay.fr/~pmassot/enseignement/math114/][Introduction aux mathématiquesformalisées]] de [[https://www.imo.universite-paris-saclay.fr/~pmassot/index.html][Patrick Massot]].
 
 # ** Creación del proyecto
 # 
@@ -74,6 +79,33 @@ reescritura.
 + Enlaces al [[./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean" src lean
 
+* Reglas de las conectivas lógicas
+
+** Reglas de la implicación
+
+*** Eliminación de la implicación
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_implicacion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_implicacion.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_implicacion.lean" src lean
+
+*** Introducción de la implicación
++ Enlaces al [[./src/2_Conectivas/Introduccion_de_la_implicacion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Introduccion_de_la_implicacion.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/2_Conectivas/Introduccion_de_la_implicacion.lean" src lean
+
+** Reglas de la equivalencia
+
+*** Eliminación de la equivalencia
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean" src lean
+
+** Reglas de la conjunción
+
+*** Eliminación de la conjunción
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_conjuncion.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean" src lean
+
+
+
+
 * Apéndices
 
 ** [[./Tacticas.org][Resumen de tácticas usadas]]
@@ -81,3 +113,6 @@ reescritura.
 
 ** [[./Teoremas.org][Resumen de teoremas usados]]
 #+INCLUDE: "./Teoremas.org"
+
+** [[./Estilos.org][Estilos de demostración]]
+#+INCLUDE: "./Estilos.org"
