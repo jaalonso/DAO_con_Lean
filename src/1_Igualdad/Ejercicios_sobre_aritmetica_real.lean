@@ -1,3 +1,14 @@
+-- Ejercicios_sobre_aritmetica_real.lean
+-- Ejercicios sobre aritmética real.
+-- José A. Alonso Jiménez
+-- Sevilla, 12 de agosto de 2020
+-- ---------------------------------------------------------------------
+
+-- En esta relación se comentan distintas pruebas con Lean de ejercicios
+-- sobre la aritmética de los números reales. La primera es por
+-- reescritura, la segunda es con encadenamiento de ecuaciones y las
+-- restantes son automáticas. 
+
 -- ---------------------------------------------------------------------
 -- Ejercicio 1. Ejecutar las siguientes acciones:
 -- 1. Importar la teoría de los números reales.

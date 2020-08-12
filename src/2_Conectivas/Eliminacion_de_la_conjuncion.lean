@@ -1,3 +1,12 @@
+-- Eliminacion_de_la_conjuncion.lean
+-- Eliminación de la conjunción.
+-- José A. Alonso Jiménez
+-- Sevilla, 12 de agosto de 2020
+-- ---------------------------------------------------------------------
+
+-- En este relación se muestra distintas formas de demostrar un teorema
+-- con eliminación de la conjunción.
+
 -- ---------------------------------------------------------------------
 -- Ejercicio. Realizar las siguientes acciones:
 -- 1. Importar la librería de tácticas.

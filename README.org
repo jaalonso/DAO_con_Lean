@@ -56,7 +56,7 @@ El trabajo se basa fundamentalmente en el proyecto [[https://github.com/leanprov
 # En este capítulos se comentan unos ejemplos sobre análisis matemático para,
 # posteriormente, analizar las tácticas utilizadas.
 # 
-# #+INCLUDE: "./src/0_Introduccion/0_Introduccion.lean" src lean
+# #+INCLUDE: "./src/0_Introduccion/0_Introduccion.lean" src lean :lines "7-"
 
 * Igualdad
 
@@ -65,19 +65,19 @@ reescritura.
 
 ** Prueba mediante reescritura
 + Enlaces al [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Transitividad_de_la_igualdad.lean][sesión en Lean Web]].
-#+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean
+#+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean :lines "7-"
 
 ** Prueba con lemas y mediante encadenamiento de ecuaciones
 + Enlaces al [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][sesión en Lean Web]].
-#+INCLUDE: "./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean" src lean
+#+INCLUDE: "./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean" src lean :lines "7-"
 
 ** Teorema aritmético con hipótesis y uso de lemas
 + Enlaces al [[./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][sesión en Lean Web]].
-#+INCLUDE: "./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean" src lean
+#+INCLUDE: "./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean" src lean :lines "7-"
 
 ** Ejercicios sobre aritmética real
 + Enlaces al [[./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][sesión en Lean Web]])
-#+INCLUDE: "./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean" src lean
+#+INCLUDE: "./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean" src lean :lines "7-"
 
 * Reglas de las conectivas lógicas
 
@@ -85,25 +85,23 @@ reescritura.
 
 *** Eliminación de la implicación
 + Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_implicacion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_implicacion.lean][sesión en Lean Web]])
-#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_implicacion.lean" src lean
+#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_implicacion.lean" src lean :lines "7-"
 
 *** Introducción de la implicación
 + Enlaces al [[./src/2_Conectivas/Introduccion_de_la_implicacion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Introduccion_de_la_implicacion.lean][sesión en Lean Web]])
-#+INCLUDE: "./src/2_Conectivas/Introduccion_de_la_implicacion.lean" src lean
+#+INCLUDE: "./src/2_Conectivas/Introduccion_de_la_implicacion.lean" src lean :lines "7-"
 
 ** Reglas de la equivalencia
 
 *** Eliminación de la equivalencia
 + Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][sesión en Lean Web]])
-#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean" src lean
+#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean" src lean :lines "7-"
 
 ** Reglas de la conjunción
 
 *** Eliminación de la conjunción
 + Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_conjuncion.lean][sesión en Lean Web]])
-#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean" src lean
-
-
+#+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean" src lean :lines "7-"
 
 * Apéndices
 

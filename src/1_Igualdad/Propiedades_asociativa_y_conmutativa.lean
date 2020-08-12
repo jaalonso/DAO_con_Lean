@@ -1,3 +1,15 @@
+-- Propiedades_asociativa_y_conmutativa.lean
+-- Propiedades asociativa y conmutativa del producto de los reales.
+-- José A. Alonso Jiménez
+-- Sevilla, 12 de agosto de 2020
+-- ---------------------------------------------------------------------
+
+-- En esta relación se presentan distintas pruebas con Lean de una
+-- igualdad con productos de números reales. La primera es por
+-- reescritura usando las propiedades asociativa y conmutativa, La
+-- segunda es con encadenamiento de ecuaciones. Las restantes son
+-- automáticas. 
+
 -- ---------------------------------------------------------------------
 -- Ejercicio. Sean a, b y c números reales. Demostrar que
 --    (a * b) * c = b * (a * c) 

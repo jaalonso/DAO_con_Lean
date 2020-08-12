@@ -1,3 +1,14 @@
+-- Encadenamiento_de_ecuaciones.lean
+-- Encadenamiento de ecuaciones.
+-- José A. Alonso Jiménez
+-- Sevilla, 12 de agosto de 2020
+-- ---------------------------------------------------------------------
+
+-- En esta relación comentan distintas pruebas con Lean de una igualdad
+-- con productos de números reales. La primera es por reescritura usando
+-- las propiedades asociativa y conmutativa, La segunda es con
+-- encadenamiento de ecuaciones. Las restantes son automáticas. 
+
 -- ---------------------------------------------------------------------
 -- Ejercicio. Sean a, b, c y d números reales. Demostrar que si 
 --    c = d * a + b  
