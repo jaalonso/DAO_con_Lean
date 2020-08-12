@@ -105,7 +105,6 @@ reescritura.
 
 
 
-
 * Apéndices
 
 ** [[./Tacticas.org][Resumen de tácticas usadas]]
