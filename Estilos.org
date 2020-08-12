@@ -1,0 +1,21 @@
+# * Estilos de demostración
+
+|---------------+----------------+-------------------|
+| Demostración  | Demostración   | Término de prueba |
+| con tácticas  | estructurada   | en bruto          |
+|---------------+----------------+-------------------|
+| intro x,      | fix x,         | λ x,              |
+| intro h,      | assume h,      | λ h,              |
+| have k := _,  | have k := _,   | have k := _,      |
+| let x := _,   | let x := _ in  | let x := _ in     |
+| exact (_ : P) | show P, from _ | _:P               |
+|---------------+----------------+-------------------|
+
+
+
+
+
+
+
+
+
