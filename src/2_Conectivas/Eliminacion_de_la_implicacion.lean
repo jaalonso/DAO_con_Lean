@@ -45,6 +45,11 @@ exact h2,
   no goals
 -/
 
+-- Comentarios:
+-- + La táctica (apply h), cuando h es una implicación, aplica la regla
+--   de eliminación de la implicación; es decir, si h es (P → Q) y la
+--   conclusión coincide con Q, entonces sustituye la conclusión por P.
+
 -- 2ª demostración (hacia adelante)
 -- ================================
 

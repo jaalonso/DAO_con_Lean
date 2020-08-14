@@ -8,12 +8,15 @@ Los teoremas utilizados son los siguientes:
 + add_mul   : (a + b) * c = a * c + b * c 
 + add_sub   : a + (b - c) = (a + b) - c
 + add_zero  : a + 0 = a
++ and.intro : P → Q → P ∧ Q 
 + and.left  : P ∧ Q → P
 + eq.trans  : a = b → b = c → a = c
 + id        : P → P
 + mul_assoc : (a * b) * c = a * (b * c)   
 + mul_comm  : a * b = b * a 
 + mul_sub   : a * (b - c) = a * b - a * c 
++ or.elim   : P ∨ Q → (P → R) → (Q → R) → R
++ or.rec    : (P → R) → (Q → R) → P ∨ Q → R 
 + pow_two   : a^2 = a * a
 + sub_self  : a - a = 0
 + sub_sub   : (a - b) - c = a - (b + c)

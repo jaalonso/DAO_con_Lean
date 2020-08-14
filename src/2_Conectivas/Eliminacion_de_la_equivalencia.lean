@@ -194,7 +194,16 @@ begin
   show R, from hQR hQ,
 end
 
--- 8ª demostración (automática)
+-- 8ª demostración (estructurada)
+-- ==============================
+
+example 
+  (h : P ↔ Q) 
+  (hQR : Q → R) 
+  : P → R :=
+assume hP, hQR (h.1 hP)
+
+-- 9ª demostración (automática)
 -- ============================
 
 example 

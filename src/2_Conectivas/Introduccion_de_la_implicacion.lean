@@ -71,19 +71,25 @@ begin
   show P, from h,
 end  
 
--- 6ª demostración (automática con tauto)
+-- 6ª demostración (estructurada)
+-- ==============================
+
+example : P → P :=
+assume h, h
+
+-- 7ª demostración (automática con tauto)
 -- ======================================
 
 example : P → P :=
 by tauto
 
--- 7ª demostración (automática con finish)
+-- 8ª demostración (automática con finish)
 -- =======================================
 
 example : P → P :=
 by finish
 
--- 8ª demostración (por simplificación)
+-- 9ª demostración (por simplificación)
 -- ====================================
 
 example : P → P :=

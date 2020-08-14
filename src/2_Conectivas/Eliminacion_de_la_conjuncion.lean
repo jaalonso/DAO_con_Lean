@@ -102,13 +102,19 @@ begin
   show P, from h.1,
 end
 
--- 5ª demostración (con término de prueba)
+-- 5ª demostración (estructurada)
+-- ==============================
+
+example : P ∧ Q → P :=
+assume h, h.1
+
+-- 6ª demostración (con término de prueba)
 -- ======================================
 
 example : P ∧ Q → P :=
 λ ⟨hP,_⟩, hP
 
--- 6ª demostración (con lema)
+-- 7ª demostración (con lema)
 -- ==========================
 
 example : P ∧ Q → P :=
@@ -120,13 +126,13 @@ and.left
 -- + El lema se encuentra con
 --      by library_search
 
--- 7ª demostración (automática con auto)
+-- 8ª demostración (automática con auto)
 -- =====================================
 
 example : P ∧ Q → P :=
 by tauto
 
--- 8ª demostración (automática con finish)
+-- 9ª demostración (automática con finish)
 -- =======================================
 
 example : P ∧ Q → P :=

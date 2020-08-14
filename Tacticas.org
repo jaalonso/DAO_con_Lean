@@ -1,3 +1,6 @@
++ =(apply h)=, cuando =h= es una implicación, aplica la regla
+  de eliminación de la implicación; es decir, si =h= es =(P → Q)= y la
+  conclusión coincide con =Q=, entonces sustituye la conclusión por =P=.
 + =assumption= concluye la demostración si la conclusión coincide con alguna de
   las hipótesis.
 + =exact h= concluye la demostración si =h= es del tipo de la conclusión.
@@ -7,18 +10,28 @@
 + =(cases h with h1 h2)=, cuando la hipótesis =h= es una conjunción aplica la
   regla de eliminación de la conjunción; es decir, si =h= es =(P ∧ Q)=,
   entonces elimina =h= y añade las hipótesis =(h1 : P)= y =(h2 : Q)=.
++ =(cases h with h1 h2)=, cuando la hipótesis =h= es una disyunción aplica la
+  regla de eliminación de la disyunción; es decir, si =h= es =(P ∨ Q)=,
+  entonces elimina =h= y crea dos casos: uno añadiendo la hipótesis =(h1 : P)= 
+  y otro añadiendo la hipótesis =(h2 : Q)=.
 + =intro h=, cuando la conclusión es una implicación, aplica la regla de
   introducción de la implicación; es decir, si la conclusión es =(P → Q)=
   entonces añade la hipótesis =(h : P)= y cambia la conclusión a =Q=.
-+ =rintro ⟨h1, h2⟩=, cuando la conclusión es una implicación cuyo antecedente es
-  una conjunción, aplica las reglsa de introducción de la implicación y de
-  eliminación de la conjunción; es decir, si la conclusión es =(P ∧ Q → R)=
-  entonces añade las hipótesis =(h1 : P)= y =(h2 : Q)= y cambia la conclusión a
-  =R=.
 + =finish= demuestra la conclusión de forma automática.
 + =linarith= demuestra la conclusión mediante aritmética lineal.
 + =ring= demuestra la conclusión normalizando las expresiones con las regñlas de
   los anillos.
++ =rintro ⟨h1, h2⟩=, cuando la conclusión es una implicación cuyo antecedente es
+  una conjunción, aplica las regla de introducción de la implicación y de
+  eliminación de la conjunción; es decir, si la conclusión es =(P ∧ Q → R)=
+  entonces añade las hipótesis =(h1 : P)= y =(h2 : Q)= y cambia la conclusión a
+  =R=.
++ =rintro (h1 | h2)=, cuando la conclusión es una implicación cuyo antecedente
+  es una disyunción, aplica las regla des introducción de la implicación y de
+  eliminación de la disyunción; es decir, si la conclusión es =(P ∨ Q → R)=
+  entonces crea dos casos: en el primero añade la hipótesis =(h1 : P)= y cambia
+  a conclusión a R; en el segundo añade la hipótesis =(h2 : Q)= y cambia la
+  conclusión a =R=.
 + =rw h= cuando =h= es una igualdad sustituye en la conclusión el término
   izquierdo de =h= por el derecho.
 + =rw h=, cuando =h= es una equivalencia como =(P ↔ Q)=, sustituye en la
@@ -36,6 +49,10 @@
 + =simp= aplica reglas de simplificación a la conclusión.
 + =solve_by_elim= intenta demostrar el objetivo aplicándole reglas de
   eliminación. 
++ =split=, cuando la conclusión es una conjunción, aplica la regla de
+  eliminación de la conjunción; es decir, si la conclusión es =(P ∧ Q)=,
+  entonces crea dos subojetivos: el primero en el que la conclusión es =P= y el
+  segundo donde es =Q=. 
 + =tauto= demuestra automáticamente las tautologías.
 
 ** Composiciones y descomposiciones
