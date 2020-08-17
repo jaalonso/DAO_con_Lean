@@ -131,11 +131,11 @@ reescritura.
 + Enlaces al [[./src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha.lean" src lean :lines "7-"
 
-*** Suma con no negativo es mayor o igual
+*** Suma por la izquierda con no negativo es mayor o igual
 + Enlaces al [[./src/2_Conectivas/Suma_con_no_negativo_es_mayor_o_igual.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_con_no_negativo_es_mayor_o_igual.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Suma_con_no_negativo_es_mayor_o_igual.lean" src lean :lines "7-"
 
-*** Es menor o igual que suma con no negativo
+*** Suma por la derecha con no negativo es mayor o igual
 + Enlaces al [[./src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean" src lean :lines "7-"
 
