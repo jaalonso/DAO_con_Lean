@@ -194,6 +194,14 @@ begin
   show R, from hQR hQ,
 end
 
+-- Comentarios:
+-- + La táctica (assume h : P), cuando la conclusión es de la forma 
+--   (P → Q), añade la hipótesis P y cambia la conclusión a Q.
+-- + La táctica (have h : e) genera dos subojetivos: el primero tiene
+--   como conclusión e y el segundo tiene la conclusión actual pero se le
+--   añade la hipótesis (h : e).
+-- + la táctica (show P, from h) demuestra la conclusión con la prueba h.
+
 -- 8ª demostración (estructurada)
 -- ==============================
 

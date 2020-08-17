@@ -47,6 +47,8 @@
 + =rw ← h at h'= cuando =h= es una equivalencia como =(P ↔ Q)= sustituye en la
   hipótesis =h'= la fórmula =Q= por =P=.
 + =simp= aplica reglas de simplificación a la conclusión.
++ =simp [h]= aplica reglas de simplificación, ampliadas con =h=, a la
+  conclusión.
 + =solve_by_elim= intenta demostrar el objetivo aplicándole reglas de
   eliminación. 
 + =split=, cuando la conclusión es una conjunción, aplica la regla de
@@ -54,6 +56,13 @@
   entonces crea dos subojetivos: el primero en el que la conclusión es =P= y el
   segundo donde es =Q=. 
 + =tauto= demuestra automáticamente las tautologías.
+
+** Demostraciones estructuradas
++ =(assume h : P)=, cuando la conclusión es de la forma =(P → Q)=, añade la
+  hipótesis =P= y cambia la conclusión a =Q=.
++ =(have h : e)= genera dos subojetivos: el primero tiene como conclusión =e= y
+  el segundo tiene la conclusión actual pero se le añade la hipótesis =(h : e)=.
++ =show P, from h= demuestra la conclusión con la prueba =h=.
 
 ** Composiciones y descomposiciones
 + Si =h1= es una demostración de =(P → Q)= y =h2= es una demostración de =P=,
