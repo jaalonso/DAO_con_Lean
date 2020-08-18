@@ -35,7 +35,7 @@ assume h, h
 
 -- 6ª demostración
 example : P → P :=
-by tauto
+by hint
 
 -- 7ª demostración
 example : P → P :=
