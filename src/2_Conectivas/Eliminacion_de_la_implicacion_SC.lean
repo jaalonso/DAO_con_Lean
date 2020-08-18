@@ -1,3 +1,6 @@
+-- Eliminación de la implicación en Lean
+-- =====================================
+
 -- Demostrar que si se tiene (P → Q) y P, 
 -- entonces se tiene Q. 
 
