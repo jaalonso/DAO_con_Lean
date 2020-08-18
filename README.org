@@ -43,6 +43,8 @@ El trabajo se presenta en 3 formas:
 + Como un [[https://www.cs.us.es/~jalonso/apuntes/DAO_con_Lean/DAO_con_Lean.pdf][libro en PDF]]
 + Como una [[https://www.cs.us.es/~jalonso/apuntes/DAO_con_Lean/README.html][página HTML]].
 + Como un [[https://github.com/jaalonso/DAO_con_Lean][proyecto en GitHub]].  
+Además, los vídeos correspondientes a cada uno de los ejercicios se encuentran
+en [[https://www.youtube.com/playlist?list=PLPIlzBVlfbbE-0_FEblzjmDSjIxQUT4x2][YouTube]].
 
 El trabajo se basa fundamentalmente en el proyecto [[https://github.com/leanprover-community/tutorials][lean-tutorials]] de la
 [[https://leanprover-community.github.io/][Comunidad Lean]] que, a su vez, se basa en el curso 
@@ -138,6 +140,7 @@ reescritura.
 *** Suma por la derecha con no negativo es mayor o igual
 + Enlaces al [[./src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean" src lean :lines "7-"
+
 
 
 * Apéndices
