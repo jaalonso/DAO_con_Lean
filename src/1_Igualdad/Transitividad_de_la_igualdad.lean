@@ -1,5 +1,5 @@
 -- Transitividad_de_la_igualdad.lean
--- 
+-- Transitividad de la igualdad.
 -- José A. Alonso Jiménez
 -- Sevilla, 12 de agosto de 2020
 -- ---------------------------------------------------------------------
