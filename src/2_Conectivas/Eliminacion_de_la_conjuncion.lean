@@ -7,14 +7,8 @@
 -- En este relación se muestra distintas formas de demostrar un teorema
 -- con eliminación de la conjunción.
 
--- ---------------------------------------------------------------------
--- Ejercicio. Realizar las siguientes acciones:
--- 1. Importar la librería de tácticas.
--- 2. Declarar P y Q como variables sobre proposiciones. 
--- ----------------------------------------------------------------------
-
-import tactic            -- 1
-variables (P Q : Prop)   -- 2
+import tactic            
+variables (P Q : Prop)   
 
 -- ---------------------------------------------------------------------
 -- Ejercicio. Demostrar que
