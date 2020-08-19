@@ -25,7 +25,7 @@ end
 -- 3ª demostración
 example : P ∧ Q → P :=
 begin
-  rintro ⟨hP, hQ⟩,
+  rintro ⟨_, _⟩,
   assumption,
 end
 
@@ -47,6 +47,8 @@ assume h, h.1
 -- 7ª demostración
 example : P ∧ Q → P :=
 and.left
+
+#check and.right
 
 -- 8ª demostración
 example : P ∧ Q → P :=
