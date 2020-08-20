@@ -119,10 +119,6 @@ reescritura.
 
 ** Ejercicios
 
-*** Ejercicios
-+ Enlaces al [[./src/2_Conectivas/Ejercicios.lean][código]]
-#+INCLUDE: "./src/2_Conectivas/Ejercicios.lean" src lean :lines "7-"
-
 *** Monotonía de la suma por la izquierda
 + Enlaces al [[./src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda_SC.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda.lean" src lean :lines "7-"
@@ -140,6 +136,8 @@ reescritura.
 #+INCLUDE: "./src/2_Conectivas/Es_menor_o_igual_que_suma_con_no_negativo.lean" src lean :lines "7-"
 
 
+
+# ./src/2_Conectivas/Ejercicios.lean
 
 * Apéndices
 
