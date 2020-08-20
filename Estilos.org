@@ -12,6 +12,20 @@
 |---------------+----------------+-------------------|
 
 
++ =intro x= equivale a =λ x, _=
++ =apply f= equivale a =f _ _ _=
++ =refine e1 (e2 _) (e3 _)= equivale a =e1 (e2 _) (e3 _)=
++ =exact e= equivale a =e=
++ =change e= equivale a =(_ : e)=
++ =rw h= equivale a =eq.rec_on h= _
++ =induction e= equivale a =T.rec_on foo _ _= donde =T= es el tipo de =e=
++ =cases e= equivale a =T.cases_on e _ _=  donde =T= es el tipo de =e=
++ =split= equivale a =and.intro _ _=
++ =have x := t= equivale a =(λ x, _) t=
++ =let x := t= equivale a =let x := t in _=
++ =revert x= equivale a =_ x=
+
+
 
 
 
