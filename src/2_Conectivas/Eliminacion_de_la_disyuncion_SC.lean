@@ -46,6 +46,7 @@ example
   (hPR : P → R) 
   (hQR : Q → R) 
   : P ∨ Q → R :=
+-- by library_search
 or.rec hPR hQR
 
 -- 5ª demostración

@@ -117,8 +117,6 @@ reescritura.
 + Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_disyuncion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_disyuncion_SC.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_disyuncion.lean" src lean :lines "7-"
 
-
-
 ** Ejercicios
 
 *** Ejercicios
