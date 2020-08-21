@@ -4,7 +4,23 @@
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
 
-# * Contenido                                                             :TOC:
+* Contenido                                                             :TOC:
+- [[#introducción][Introducción]]
+- [[#igualdad][Igualdad]]
+  - [[#prueba-mediante-reescritura][Prueba mediante reescritura]]
+  - [[#prueba-con-lemas-y-mediante-encadenamiento-de-ecuaciones][Prueba con lemas y mediante encadenamiento de ecuaciones]]
+  - [[#teorema-aritmético-con-hipótesis-y-uso-de-lemas][Teorema aritmético con hipótesis y uso de lemas]]
+  - [[#ejercicios-sobre-aritmética-real][Ejercicios sobre aritmética real]]
+- [[#conectivas-implicación-equivalencia-conjunción-y-disyunción][Conectivas: implicación, equivalencia, conjunción y disyunción)]]
+  - [[#reglas-de-la-implicación][Reglas de la implicación]]
+  - [[#reglas-de-la-equivalencia][Reglas de la equivalencia]]
+  - [[#reglas-de-la-conjunción][Reglas de la conjunción]]
+  - [[#reglas-de-la-disyunción][Reglas de la disyunción]]
+  - [[#ejercicios][Ejercicios]]
+- [[#apéndices][Apéndices]]
+  - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
+  - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
+  - [[#estilos-de-demostración][Estilos de demostración]]
 
 * Introducción
 
@@ -23,9 +39,8 @@ Además, en cada ejercicio hay un enlace al código y a su lado otro que al
 pulsarlo abre el ejercicio en Lean Web (en una sesión del navegador) de forma
 que se puede navegar por las pruebas y editar otras alternativas.
  
-El trabajo se presenta en 3 formas:
-+ Como un [[https://www.cs.us.es/~jalonso/apuntes/DAO_con_Lean/DAO_con_Lean.pdf][libro en PDF]]
-+ Como una [[https://www.cs.us.es/~jalonso/apuntes/DAO_con_Lean/README.html][página HTML]].
+El trabajo se presenta en 2 formas:
++ Como un [[https://github.com/jaalonso/DAO_con_Lean/raw/master/DAO_con_Lean.pdf][libro en PDF]]
 + Como un [[https://github.com/jaalonso/DAO_con_Lean][proyecto en GitHub]].  
 Además, los vídeos correspondientes a cada uno de los ejercicios se encuentran
 en [[https://www.youtube.com/playlist?list=PLPIlzBVlfbbE-0_FEblzjmDSjIxQUT4x2][YouTube]].
