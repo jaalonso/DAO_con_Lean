@@ -1,7 +1,7 @@
 -- La suma de no negativos es expansiva 
 -- ====================================
 
--- Demostrar si a y b son números naturales y a es no
+-- Demostrar si a y b son números reales y a es no
 -- negativo, entonces b ≤ a + b
 
 import data.real.basic
@@ -59,7 +59,7 @@ example
   : b ≤ a + b :=
 by finish
 
--- Demostrar si a y b son números naturales y b es no
+-- Demostrar si a y b son números reales y b es no
 -- negativo, entonces a ≤ a + b
 
 -- 1ª demostración

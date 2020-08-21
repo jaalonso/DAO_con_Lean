@@ -5,7 +5,7 @@
 -- ---------------------------------------------------------------------
 
 -- ---------------------------------------------------------------------
--- Ejercicio 1.. Demostrar si a y b son números naturales y a es no
+-- Ejercicio 1.. Demostrar si a y b son números reales y a es no
 -- negativo, entonces b ≤ a + b
 -- ----------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ le_add_of_nonneg_left ha
 -- + le_add_of_nonneg_left : 0 ≤ b → a ≤ b + a 
 
 -- ---------------------------------------------------------------------
--- Ejercicio 2. Demostrar si a y b son números naturales y b es no
+-- Ejercicio 2. Demostrar si a y b son números reales y b es no
 -- negativo, entonces a ≤ a + b
 -- ----------------------------------------------------------------------
 
