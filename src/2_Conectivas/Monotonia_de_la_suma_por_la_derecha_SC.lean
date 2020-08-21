@@ -12,7 +12,7 @@ variables {a b c : ℝ}
 example 
   (hab : a ≤ b) 
   : a + c ≤ b + c :=
-begin
+begin 
   rw ← sub_nonneg,
   have h : (b + c) - (a + c) = b - a, 
   { ring, },  
