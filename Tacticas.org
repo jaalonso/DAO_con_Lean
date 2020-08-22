@@ -19,6 +19,8 @@
   entonces añade la hipótesis =(h : P)= y cambia la conclusión a =Q=.
 + =finish= demuestra la conclusión de forma automática.
 + =linarith= demuestra la conclusión mediante aritmética lineal.
++ =nlinarith= es una extensión de =linarith= con un preprocesamiento que permite
+  resolver problemas aritméticos no lineales.
 + =ring= demuestra la conclusión normalizando las expresiones con las regñlas de
   los anillos.
 + =rintro ⟨h1, h2⟩=, cuando la conclusión es una implicación cuyo antecedente es
@@ -46,6 +48,14 @@
   término derecho de =h= por el izquierdo
 + =rw ← h at h'= cuando =h= es una equivalencia como =(P ↔ Q)= sustituye en la
   hipótesis =h'= la fórmula =Q= por =P=.
++ =rwa h= cuando =h= es una igualdad sustituye en la conclusión el término
+  izquierdo de =h= por el derecho y, a continuación, aplica =assumption=.
++ =rwa h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
+  término izquierdo de =h= por el derecho y, a continuación, aplica
+  =assumption=..
++ =rwa ← h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
+  término derecho de =h= por el izquierdo y, a continuación, aplica
+  =assumption=.
 + =simp= aplica reglas de simplificación a la conclusión.
 + =simp [h]= aplica reglas de simplificación, ampliadas con =h=, a la
   conclusión.

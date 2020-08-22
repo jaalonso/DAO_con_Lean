@@ -51,7 +51,7 @@ En este capítulos se presenta el razonamiento con igualdades mediante
 reescritura. 
 
 ** Prueba mediante reescritura
-+ Enlaces al [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Transitividad_de_la_igualdad_SC.lean][sesión en Lean Web]].
++ Enlaces al [[./src/1_Igualdad/Transitividad_de_la_igualdad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Transitividad_de_la_igualdad_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/sSIxTb4p7lE][vídeo]].
 #+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean :lines "7-"
 
 ** Prueba con lemas y mediante encadenamiento de ecuaciones
@@ -121,6 +121,10 @@ reescritura.
 *** Suma de desigualdades
 + Enlaces al [[./src/2_Conectivas/Suma_de_desigualdades.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_de_desigualdades_SC.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/Suma_de_desigualdades.lean" src lean :lines "7-"
+
+*** Monotonía de la multiplicación por no negativo
++ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo_SC.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean" src lean :lines "7-"
 
 
 * Apéndices

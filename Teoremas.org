@@ -23,6 +23,8 @@ Los teoremas utilizados son los siguientes:
 + le_trans: a ≤ b → b ≤ c → a ≤ c
 + mul_assoc : (a * b) * c = a * (b * c)   
 + mul_comm : a * b = b * a 
++ mul_mono_nonneg : 0 ≤ c → a ≤ b → a * c ≤ b * c 
++ mul_nonneg : 0 ≤ a → 0 ≤ b → 0 ≤ a * b
 + mul_sub : a * (b - c) = a * b - a * c 
 + or.elim : P ∨ Q → (P → R) → (Q → R) → R
 + or.rec : (P → R) → (Q → R) → P ∨ Q → R 
