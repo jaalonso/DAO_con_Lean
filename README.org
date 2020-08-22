@@ -4,23 +4,7 @@
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
 
-* Contenido                                                             :TOC:
-- [[#introducción][Introducción]]
-- [[#igualdad][Igualdad]]
-  - [[#prueba-mediante-reescritura][Prueba mediante reescritura]]
-  - [[#prueba-con-lemas-y-mediante-encadenamiento-de-ecuaciones][Prueba con lemas y mediante encadenamiento de ecuaciones]]
-  - [[#teorema-aritmético-con-hipótesis-y-uso-de-lemas][Teorema aritmético con hipótesis y uso de lemas]]
-  - [[#ejercicios-sobre-aritmética-real][Ejercicios sobre aritmética real]]
-- [[#conectivas-implicación-equivalencia-conjunción-y-disyunción][Conectivas: implicación, equivalencia, conjunción y disyunción)]]
-  - [[#reglas-de-la-implicación][Reglas de la implicación]]
-  - [[#reglas-de-la-equivalencia][Reglas de la equivalencia]]
-  - [[#reglas-de-la-conjunción][Reglas de la conjunción]]
-  - [[#reglas-de-la-disyunción][Reglas de la disyunción]]
-  - [[#ejercicios][Ejercicios]]
-- [[#apéndices][Apéndices]]
-  - [[#resumen-de-tácticas-usadas][Resumen de tácticas usadas]]
-  - [[#resumen-de-teoremas-usados][Resumen de teoremas usados]]
-  - [[#estilos-de-demostración][Estilos de demostración]]
+# * Contenido                                                             :TOC:
 
 * Introducción
 
@@ -129,6 +113,11 @@ reescritura.
 *** La suma de no negativos es expansiva
 + Enlaces al [[./src/2_Conectivas/La_suma_de_no_negativos_es_expansiva.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/La_suma_de_no_negativos_es_expansiva_SC.lean][sesión en Lean Web]])
 #+INCLUDE: "./src/2_Conectivas/La_suma_de_no_negativos_es_expansiva.lean" src lean :lines "7-"
+
+*** Suma de no negativos
++ Enlaces al [[./src/2_Conectivas/Suma_de_no_negativos.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_de_no_negativos_SC.lean][sesión en Lean Web]])
+#+INCLUDE: "./src/2_Conectivas/Suma_de_no_negativos.lean" src lean :lines "7-"
+
 
 * Apéndices
 

@@ -9,6 +9,7 @@ Los teoremas utilizados son los siguientes:
 + add_le_add_left : a ≤ b → ∀ (c : ℝ), c + a ≤ c + b 
 + add_le_add_right : a ≤ b → ∀ (c : ℝ), a + c ≤ b + c 
 + add_mul : (a + b) * c = a * c + b * c 
++ add_nonneg : 0 ≤ a → 0 ≤ b → 0 ≤ a + b
 + add_sub : a + (b - c) = (a + b) - c
 + add_sub_add_left_eq_sub : c + a - (c + b) = a - b 
 + add_sub_add_right_eq_sub : a + c - (b + c) = a - b 
