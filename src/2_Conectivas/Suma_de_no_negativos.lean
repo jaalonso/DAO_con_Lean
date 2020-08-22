@@ -5,7 +5,7 @@
 -- ---------------------------------------------------------------------
 
 -- ---------------------------------------------------------------------
--- Ejercicio 1.. Demostrar si a y b son números reales no negativos, 
+-- Ejercicio 1. Demostrar si a y b son números reales no negativos, 
 -- entonces a + b es no negativo.
 -- ----------------------------------------------------------------------
 

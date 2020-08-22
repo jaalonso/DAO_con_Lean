@@ -5,7 +5,7 @@ Los teoremas utilizados son los siguientes:
 #+begin_src lean
 + add_assoc : (a + b) + c = a + (b + c) 
 + add_comm : a + b = b + a 
-+ add_le_add_left : a ≤ b → ∀ (c : ℝ), c + a ≤ c + b 
++ add_le_add : a ≤ b → c ≤ d → a + c ≤ b + d 
 + add_le_add_left : a ≤ b → ∀ (c : ℝ), c + a ≤ c + b 
 + add_le_add_right : a ≤ b → ∀ (c : ℝ), a + c ≤ b + c 
 + add_mul : (a + b) * c = a * c + b * c 
