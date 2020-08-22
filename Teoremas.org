@@ -20,6 +20,7 @@ Los teoremas utilizados son los siguientes:
 + id : P → P
 + le_add_of_nonneg_left : 0 ≤ b → a ≤ b + a 
 + le_add_of_nonneg_right : 0 ≤ b → a ≤ a + b 
++ le_trans: a ≤ b → b ≤ c → a ≤ c
 + mul_assoc : (a * b) * c = a * (b * c)   
 + mul_comm : a * b = b * a 
 + mul_sub : a * (b - c) = a * b - a * c 

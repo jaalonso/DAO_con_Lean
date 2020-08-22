@@ -24,9 +24,23 @@ example
   (hab : a ≤ b) 
   (hcd : c ≤ d) 
   : a + c ≤ b + d :=
-add_le_add hab hcd
+begin
+  have h1 : a + c ≤ b + c := 
+    add_le_add_right hab c,
+  have h2 : b + c ≤ b + d :=
+    add_le_add_left hcd b,
+  show a + c ≤ b + d, 
+    from le_trans h1 h2,
+end
 
 -- 3ª demostración
+example  
+  (hab : a ≤ b) 
+  (hcd : c ≤ d) 
+  : a + c ≤ b + d :=
+add_le_add hab hcd
+
+-- 4ª demostración
 example  
   (hab : a ≤ b) 
   (hcd : c ≤ d) 
