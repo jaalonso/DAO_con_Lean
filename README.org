@@ -1,5 +1,6 @@
 #+TITLE: DAO (Demostración Asistida por Ordenador) con Lean
 #+OPTIONS: ^:nil
+#+OPTIONS: num:3
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
