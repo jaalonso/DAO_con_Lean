@@ -1,21 +1,14 @@
--- Monotonia_de_la_multiplicacion_por_no_negativo.lean
--- Monotonía de la multiplicación por no negativo.
--- José A. Alonso Jiménez
--- Sevilla, 22 de agosto de 2020
--- ---------------------------------------------------------------------
+-- Monotonía de la multiplicación por no negativo
+-- ==============================================
 
--- ---------------------------------------------------------------------
--- Ejercicio. Demostrar que si a, b y c son números reales tales que 
+-- Demostrar que si a, b y c son números reales tales que 
 -- 0 ≤ c y a ≤ b, entonces a*c ≤ b*c.
--- ----------------------------------------------------------------------
 
 import data.real.basic
 
 variables {a b c : ℝ}
 
 -- 1ª demostración
--- ===============
-
 example 
   (hc : 0 ≤ c) 
   (hab : a ≤ b) 
@@ -31,12 +24,7 @@ begin
     { exact hc }},
 end
 
--- Comentario: Se ha usado el lema
--- + mul_nonneg : 0 ≤ a → 0 ≤ b → 0 ≤ a * b
-
 -- 2ª demostración
--- ===============
-
 example 
   (hc : 0 ≤ c) 
   (hab : a ≤ b) 
@@ -57,8 +45,6 @@ begin
 end
 
 -- 3ª demostración
--- ===============
-
 example 
   (hc : 0 ≤ c) 
   (hab : a ≤ b) 
@@ -75,17 +61,7 @@ begin
   rwa sub_nonneg at h3,
 end
 
--- Comentario: 
--- + La táctica (rwa h at h'), cuando h es una igualdad. sustituye en la
---   hipótesis h' el término izquierdo de h por el derecho y, a
---   continuación, aplica assumption.
--- + La táctica (rwa ← h at h'), cuando h es una igualdad, sustituye en
---   la hipótesis h' el término derecho de h por el izquierdo y, a
---   continuación, aplica assumption.
-
 -- 4ª demostración
--- ===============
-
 example 
   (hc : 0 ≤ c) 
   (hab : a ≤ b) 
@@ -97,28 +73,17 @@ begin
 end
 
 -- 5ª demostración
--- ===============
-
 example 
   (hc : 0 ≤ c) 
   (hab : a ≤ b) 
   : a * c ≤ b * c :=
 mul_mono_nonneg hc hab
 
--- Comentario: Se usa el lema
--- + mul_mono_nonneg : 0 ≤ c → a ≤ b → a * c ≤ b * c 
-
 -- 6ª demostración
--- ===============
-
 example 
   (hc : 0 ≤ c) 
   (hab : a ≤ b) 
   : a * c ≤ b * c :=
 by nlinarith
 
--- Comentario: 
--- + La táctica nlinarith es una extensión de linarith con un
---   preprocesamiento que permite resolver problemas aritméticos no
---   lineales.  
 

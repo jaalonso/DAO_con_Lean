@@ -233,6 +233,9 @@ Let's now practice all three styles using:
 /- First using mostly backward reasonning -/
 -- 0013
 example (a b c : ℝ) (hc : c ≤ 0) (hab :  a ≤ b) : b*c ≤ a*c :=
+by library_search
+
+example (a b c : ℝ) (hc : c ≤ 0) (hab :  a ≤ b) : b*c ≤ a*c :=
 begin
   -- sorry
   rw ← sub_nonneg,
