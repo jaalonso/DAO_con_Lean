@@ -108,3 +108,4 @@ by nlinarith
 -- + La táctica nlinarith es una extensión de linarith con un
 --   preprocesamiento que permite resolver problemas aritméticos no
 --   lineales.  
+

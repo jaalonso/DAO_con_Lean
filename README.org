@@ -55,15 +55,15 @@ reescritura.
 #+INCLUDE: "./src/1_Igualdad/Transitividad_de_la_igualdad.lean" src lean :lines "7-"
 
 ** Prueba con lemas y mediante encadenamiento de ecuaciones
-+ Enlaces al [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa_SC.lean][sesión en Lean Web]].
++ Enlaces al [[./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Propiedades_asociativa_y_conmutativa_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/0u0j3ll3fps][vídeo]].
 #+INCLUDE: "./src/1_Igualdad/Propiedades_asociativa_y_conmutativa.lean" src lean :lines "7-"
 
 ** Teorema aritmético con hipótesis y uso de lemas
-+ Enlaces al [[./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Encadenamiento_de_ecuaciones_SC.lean][sesión en Lean Web]].
++ Enlaces al [[./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Encadenamiento_de_ecuaciones_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/tAM-EYiIVTs][vídeo]].
 #+INCLUDE: "./src/1_Igualdad/Encadenamiento_de_ecuaciones.lean" src lean :lines "7-"
 
 ** Ejercicios sobre aritmética real
-+ Enlaces al [[./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Ejercicios_sobre_aritmetica_real_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/1_Igualdad/Ejercicios_sobre_aritmetica_real_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/DEqlkFH7E58][vídeo]].
 #+INCLUDE: "./src/1_Igualdad/Ejercicios_sobre_aritmetica_real.lean" src lean :lines "7-"
 
 * Conectivas: implicación, equivalencia, conjunción y disyunción) 
@@ -71,59 +71,59 @@ reescritura.
 ** Reglas de la implicación
 
 *** Eliminación de la implicación
-+ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_implicacion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_implicacion_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_implicacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_implicacion_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/yF3XK7V3WoM][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_implicacion.lean" src lean :lines "7-"
 
 *** Introducción de la implicación
-+ Enlaces al [[./src/2_Conectivas/Introduccion_de_la_implicacion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Introduccion_de_la_implicacion_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Introduccion_de_la_implicacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Introduccion_de_la_implicacion_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/HZVaBqhntE4][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Introduccion_de_la_implicacion.lean" src lean :lines "7-"
 
 ** Reglas de la equivalencia
 
 *** Eliminación de la equivalencia
-+ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_equivalencia.lean][sesión en Lean Web]] y al [[https://youtu.be/P2zUt7PQ84A][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_equivalencia.lean" src lean :lines "7-"
 
 ** Reglas de la conjunción
 
 *** Eliminación de la conjunción
-+ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_conjuncion_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_conjuncion_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/tvIDWt9NqLs][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_conjuncion.lean" src lean :lines "7-"
 
 *** Introducción de la conjunción
-+ Enlaces al [[./src/2_Conectivas/Introduccion_de_la_conjuncion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Introduccion_de_la_conjuncion_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Introduccion_de_la_conjuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Introduccion_de_la_conjuncion_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/agnL6RTjOp8][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Introduccion_de_la_conjuncion.lean" src lean :lines "7-"
 
 ** Reglas de la disyunción
 
 *** Eliminación de la disyunción
-+ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_disyuncion.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_disyuncion_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Eliminacion_de_la_disyuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Eliminacion_de_la_disyuncion_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/DDK0Iqv9uz0][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Eliminacion_de_la_disyuncion.lean" src lean :lines "7-"
 
 ** Ejercicios
 
 *** Monotonía de la suma por la izquierda
-+ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/WypUZ9McHF8][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_suma_por_la_izquierda.lean" src lean :lines "7-"
 
 *** Monotonía de la suma por la derecha
-+ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/MvUtTJTmeX8][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_suma_por_la_derecha.lean" src lean :lines "7-"
 
 *** La suma de no negativos es expansiva
-+ Enlaces al [[./src/2_Conectivas/La_suma_de_no_negativos_es_expansiva.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/La_suma_de_no_negativos_es_expansiva_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/La_suma_de_no_negativos_es_expansiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/La_suma_de_no_negativos_es_expansiva_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/dRWZh8SqEf4][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/La_suma_de_no_negativos_es_expansiva.lean" src lean :lines "7-"
 
 *** Suma de no negativos
-+ Enlaces al [[./src/2_Conectivas/Suma_de_no_negativos.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_de_no_negativos_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Suma_de_no_negativos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_de_no_negativos_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/uEVGeITUPh8][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Suma_de_no_negativos.lean" src lean :lines "7-"
 
 *** Suma de desigualdades
-+ Enlaces al [[./src/2_Conectivas/Suma_de_desigualdades.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_de_desigualdades_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Suma_de_desigualdades.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Suma_de_desigualdades_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/p4amJgZ1GoQ][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Suma_de_desigualdades.lean" src lean :lines "7-"
 
 *** Monotonía de la multiplicación por no negativo
-+ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean][código]] y a la ([[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo_SC.lean][sesión en Lean Web]])
++ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo_SC.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean" src lean :lines "7-"
 
 
