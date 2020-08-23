@@ -19,9 +19,10 @@ La exposición se hará mediante una colección de ejercicios. En cada ejercicio
 se mostrarán distintas pruebas del mismo resultado y se comentan las tácticas
 conforme se van usando y los lemas utilizados en las demostraciones.
 
-Además, en cada ejercicio hay un enlace al código y a su lado otro que al
+Además, en cada ejercicio hay tres enlaces: uno al código, otro que al
 pulsarlo abre el ejercicio en Lean Web (en una sesión del navegador) de forma
-que se puede navegar por las pruebas y editar otras alternativas.
+que se puede navegar por las pruebas y editar otras alternativas, y el tercero es
+un enlace a un vídeo explicando las soluciones del ejercicio.
  
 El trabajo se presenta en 2 formas:
 + Como un [[https://github.com/jaalonso/DAO_con_Lean/raw/master/DAO_con_Lean.pdf][libro en PDF]]
