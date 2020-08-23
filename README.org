@@ -124,8 +124,12 @@ reescritura.
 #+INCLUDE: "./src/2_Conectivas/Suma_de_desigualdades.lean" src lean :lines "7-"
 
 *** Monotonía de la multiplicación por no negativo
-+ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/U15Yweq_YIE][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_negativo.lean" src lean :lines "7-"
+
+*** Monotonía de la multiplicación por no positivo
++ Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_positivo.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_positivo_SC.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_positivo.lean" src lean :lines "7-"
 
 
 * Apéndices

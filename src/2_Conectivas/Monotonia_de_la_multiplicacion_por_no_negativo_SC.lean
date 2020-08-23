@@ -16,12 +16,12 @@ example
 begin
   rw ← sub_nonneg,
   have h : b * c - a * c = (b - a) * c,
-  { ring },
+  { ring, },
   { rw h,
     apply mul_nonneg,
     { rw sub_nonneg,
-      exact hab },
-    { exact hc }},
+      exact hab, },
+    { exact hc, }},
 end
 
 -- 2ª demostración
@@ -53,7 +53,7 @@ begin
   have hab' : 0 ≤ b - a,
   { rwa ← sub_nonneg at hab, },
   have h1 : 0 ≤ (b - a) * c,
-  { exact mul_nonneg hab' hc },
+  { exact mul_nonneg hab' hc, },
   have h2 : (b - a) * c = b * c - a * c,
   { ring, },
   have h3 : 0 ≤ b * c - a * c,
