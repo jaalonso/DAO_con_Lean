@@ -1,4 +1,5 @@
 #+TITLE: DAO (Demostración Asistida por Ordenador) con Lean
+#+AUTHOR: José A. Alonso
 #+DATE: <2020-08-23 Sun>
 #+OPTIONS: ^:nil
 #+OPTIONS: num:t
@@ -132,7 +133,6 @@ reescritura.
 *** Monotonía de la multiplicación por no positivo
 + Enlaces al [[./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_positivo.lean][código]] y a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_positivo_SC.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/2_Conectivas/Monotonia_de_la_multiplicacion_por_no_positivo.lean" src lean :lines "7-"
-
 
 * Apéndices
 
