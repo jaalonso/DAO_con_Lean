@@ -1,16 +1,20 @@
--- Conectivas y desigualdades
--- ==========================
+-- Conectivas_y_desigualdades.lean
+-- Conectivas y desigualdades.
+-- José A. Alonso Jiménez
+-- Sevilla, 23 de agosto de 2020
+-- ---------------------------------------------------------------------
 
--- En esta relación se formulan algunas de las 
--- anteriores propiedades de las desigualdades de los 
--- números reales usando conectivas.
+-- En esta relación se formulan algunas de las anteriores propiedades de
+-- las desigualdades de los números reales usando conectivas.
 
 import data.real.basic
 
 variables (a b c : ℝ)
 
--- Ej1. Demostrar que
+-- ---------------------------------------------------------------------
+-- Ejercicio 1. Demostrar que
 --    0 ≤ a → b ≤ a + b
+-- ----------------------------------------------------------------------
 
 -- 1ª demostración
 -- ===============
@@ -33,8 +37,10 @@ le_add_of_nonneg_left
 example : 0 ≤ a → b ≤ a + b :=
 by finish
 
--- Ej2. Demostrar que
+-- ---------------------------------------------------------------------
+-- Ejercicio 2. Demostrar que
 --    0 ≤ b → a ≤ a + b
+-- ----------------------------------------------------------------------
 
 -- 1ª demostración
 -- ===============
@@ -57,8 +63,10 @@ le_add_of_nonneg_right
 example: 0 ≤ b → a ≤ a + b :=
 by finish
 
--- Ej3. Demostrar que
+-- ---------------------------------------------------------------------
+-- Ejercicio 3. Demostrar que
 --    (0 ≤ a ∧ 0 ≤ b) → 0 ≤ a + b
+-- ----------------------------------------------------------------------
 
 -- 1ª demostración
 -- ===============
@@ -85,8 +93,10 @@ end
 example : (0 ≤ a ∧ 0 ≤ b) → 0 ≤ a + b :=
 λ ⟨ha, hb⟩, add_nonneg ha hb
 
--- Ej4. Demostrar que
+-- ---------------------------------------------------------------------
+-- Ejercicio 4. Demostrar que
 --    0 ≤ a → (0 ≤ b → 0 ≤ a + b)
+-- ----------------------------------------------------------------------
 
 -- 1ª demostración
 -- ===============
@@ -125,10 +135,12 @@ add_nonneg
 example : 0 ≤ a → (0 ≤ b → 0 ≤ a + b) := 
 by intros ; linarith 
 
--- Ej5. Demostrar que si
+-- ---------------------------------------------------------------------
+-- Ejercicio 5. Demostrar que si
 --   (0 ≤ a ∧ 0 ≤ b) → 0 ≤ a + b
 -- entonces 
 --   0 ≤ a → (0 ≤ b → 0 ≤ a + b)
+-- ----------------------------------------------------------------------
 
 -- 1ª demostración
 -- ===============
