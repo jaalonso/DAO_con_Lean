@@ -1,13 +1,8 @@
--- Formulacion_equivalente_de_lema_con_dos_hipotesis.lean
--- Formulación equivalente de lemas con dos hipótesis.
--- José A. Alonso Jiménez
--- Sevilla, 24 de agosto de 2020
--- ---------------------------------------------------------------------
+-- Formulación equivalente de lemas con dos hipótesis
+-- ==================================================
 
--- ---------------------------------------------------------------------
--- Ejercicio. Demostrar que
+-- Demostrar que
 --    (P ∧ Q → R) ↔ (P → (Q → R))
--- ----------------------------------------------------------------------
 
 import tactic
 
@@ -32,17 +27,11 @@ example : (P ∧ Q → R) ↔ (P → (Q → R)) :=
 iff.intro (λ h hP hQ, h ⟨hP, hQ⟩) 
           (λ h ⟨hP, hQ⟩, h hP hQ)
 
--- Comentario: Se ha usado el lema
--- + iff.intro : (P → Q) → (Q → P) → (P ↔ Q)
-
 -- 3ª demostración
 -- ===============
 
 example : (P ∧ Q → R) ↔ (P → (Q → R)) :=
 and_imp
-
--- Comentario: Se usa el lema
--- + and_imp : (P ∧ Q → R) ↔ (P → (Q → R))
 
 -- 4ª demostración
 -- ===============
