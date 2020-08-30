@@ -1,9 +1,9 @@
--- Conectivas y desigualdades
+-- Conectivas y desigualdades 
 -- ==========================
 
 -- En esta relación se formulan algunas de las 
 -- anteriores propiedades de las desigualdades de los 
--- números reales usando conectivas.
+-- números reales formuladas con conectivas.
 
 import data.real.basic
 
