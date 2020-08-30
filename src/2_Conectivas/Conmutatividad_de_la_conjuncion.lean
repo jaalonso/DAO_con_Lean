@@ -72,13 +72,25 @@ begin
   show Q ∧ P, from ⟨h.right, h.left⟩,
 end
 
+example : P ∧ Q → Q ∧ P :=
+begin
+  assume h : P ∧ Q,
+  show Q ∧ P, from ⟨h.2, h.1⟩,
+end
+
 -- 7ª demostración
+-- ===============
+
+example : P ∧ Q → Q ∧ P :=
+λ h, ⟨h.2, h.1⟩
+
+-- 8ª demostración
 -- ===============
 
 example : P ∧ Q → Q ∧ P :=
 by tauto
 
--- 8ª demostración
+-- 9ª demostración
 -- ===============
 
 example : P ∧ Q → Q ∧ P :=

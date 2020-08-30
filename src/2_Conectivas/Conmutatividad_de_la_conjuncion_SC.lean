@@ -58,8 +58,11 @@ end
 example : P ∧ Q → Q ∧ P :=
 begin
   assume h : P ∧ Q,
-  show Q ∧ P, from ⟨h.right, h.left⟩,
+  show Q ∧ P, from ⟨h.2, h.1⟩,
 end
+
+example : P ∧ Q → Q ∧ P :=
+λ h, ⟨h.2, h.1⟩
 
 -- 7ª demostración
 -- ===============
