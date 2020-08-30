@@ -139,7 +139,7 @@ reescritura.
 #+INCLUDE: "./src/2_Conectivas/Conectivas_y_desigualdades.lean" src lean :lines "7-"
 
 *** Conmutatividad de la conjunción
-+ Enlaces al [[./src/2_Conectivas/Conmutatividad_de_la_conjuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Conmutatividad_de_la_conjuncion_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/2_Conectivas/Conmutatividad_de_la_conjuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Conmutatividad_de_la_conjuncion_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/xsaj936yKUk][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Conmutatividad_de_la_conjuncion.lean" src lean :lines "7-"
 
 *** Formulación equivalente de lemas con dos hipótesis
