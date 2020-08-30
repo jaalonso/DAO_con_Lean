@@ -77,7 +77,10 @@
 ** Composiciones y descomposiciones
 + Si =h1= es una demostración de =(P → Q)= y =h2= es una demostración de =P=,
   entonces =(h1 h2)= es una demostración de =Q=.
++ Si =h= es la conjunción =(P ∧ Q)=, entonces =h.letf= es =P= y =h.right= es =Q=. 
 + Si =h= es la conjunción =(P ∧ Q)=, entonces =h.1= es =P= y =h.2= es =Q=. 
++ Si =h= es la equivalencia =(P ↔ Q)=, entonces =h.mp= es =(P → Q)= y =h.mpr= es
+  =(Q → P)=.
 + Si =h= es la equivalencia =(P ↔ Q)=, entonces =h.1= es =(P → Q)= y =h.2= es 
   =(Q → P)=. 
 + Si =h= es una igualdad entonces =h ▸ h'= es la expresión obtenida sustituyendo

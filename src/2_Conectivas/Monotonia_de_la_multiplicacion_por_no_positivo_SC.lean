@@ -16,7 +16,7 @@ example
 begin
   rw ← sub_nonneg,
   have h : a * c - b * c = (a - b) * c,
-  { ring },
+  { ring, },
   { rw h,
     apply mul_nonneg_of_nonpos_of_nonpos,
     { rwa sub_nonpos, },
@@ -49,8 +49,10 @@ begin
   rw ← sub_nonneg,
   have hab' : a - b ≤ 0,
   { rwa sub_nonpos, },
-  calc 0 ≤ (a - b)*c  : mul_nonneg_of_nonpos_of_nonpos hab' hc
-     ... =  a*c - b*c : by ring,
+  calc 0 ≤ (a - b)*c  
+              : mul_nonneg_of_nonpos_of_nonpos hab' hc
+     ... =  a*c - b*c 
+              : by ring,
 end
 
 -- 4ª demostración

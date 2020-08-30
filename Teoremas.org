@@ -14,10 +14,17 @@ Los teoremas utilizados son los siguientes:
 + add_sub_add_left_eq_sub : c + a - (c + b) = a - b 
 + add_sub_add_right_eq_sub : a + c - (b + c) = a - b 
 + add_zero : a + 0 = a
++ and.comm : P ∧ Q ↔ Q ∧ P
 + and.intro : P → Q → P ∧ Q 
 + and.left : P ∧ Q → P
++ and_imp : (P ∧ Q → R) ↔ (P → (Q → R))
++ dvd_antisymm : a ∣ b → b ∣ a → a = b 
++ dvd_gcd_iff : c ∣ gcd a b ↔ c ∣ a ∧ c ∣ b
++ dvd_refl a : a ∣ a
 + eq.trans : a = b → b = c → a = c
++ gcd_eq_left_iff_dvd : a ∣ b ↔ gcd a b = a 
 + id : P → P
++ iff.intro : (P → Q) → (Q → P) → (P ↔ Q)
 + le_add_of_nonneg_left : 0 ≤ b → a ≤ b + a 
 + le_add_of_nonneg_right : 0 ≤ b → a ≤ a + b 
 + le_trans: a ≤ b → b ≤ c → a ≤ c
