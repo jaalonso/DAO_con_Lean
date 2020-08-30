@@ -56,12 +56,30 @@ and.comm.mp
 -- ===============
 
 example : P ∧ Q → Q ∧ P :=
-by tauto
+begin
+  assume h : P ∧ Q,
+  have hP : P := h.left,
+  have hQ : Q := h.right,
+  show Q ∧ P, from ⟨hQ, hP⟩,
+end
 
 -- 6ª demostración
 -- ===============
 
 example : P ∧ Q → Q ∧ P :=
+begin
+  assume h : P ∧ Q,
+  show Q ∧ P, from ⟨h.right, h.left⟩,
+end
+
+-- 7ª demostración
+-- ===============
+
+example : P ∧ Q → Q ∧ P :=
+by tauto
+
+-- 8ª demostración
+-- ===============
+
+example : P ∧ Q → Q ∧ P :=
 by finish
-
-
