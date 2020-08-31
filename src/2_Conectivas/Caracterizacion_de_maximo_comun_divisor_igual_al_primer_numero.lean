@@ -21,7 +21,7 @@ variables (a b : ℕ)
 example : a ∣ b ↔ gcd a b = a :=
 begin
   have h1 : gcd a b ∣ a ∧ gcd a b ∣ b,
-  { rw ← dvd_gcd_iff, },
+  { exact gcd_dvd a b, },
   split,
   { intro h2,
     apply dvd_antisymm h1.left,
@@ -39,9 +39,10 @@ end
 -- + Si h es la conjunción (P ∧ Q), entonces h.letf es P y h.right es
 --   Q. 
 -- + Se han usado los lemas
---   + dvd_gcd_iff : c ∣ gcd a b ↔ c ∣ a ∧ c ∣ b
+--   + dvd_refl : a ∣ a
 --   + dvd_antisymm : a ∣ b → b ∣ a → a = b 
---   + dvd_refl a : a ∣ a
+--   + dvd_gcd_iff : c ∣ gcd a b ↔ c ∣ a ∧ c ∣ b
+--   + gcd_dvd : gcd a b ∣ a ∧ gcd a b ∣ b
 
 -- 2ª demostración
 -- ===============

@@ -143,10 +143,10 @@ reescritura.
 #+INCLUDE: "./src/2_Conectivas/Conmutatividad_de_la_conjuncion.lean" src lean :lines "7-"
 
 *** Formulación equivalente de lemas con dos hipótesis
-+ Enlaces al [[./src/2_Conectivas/Formulacion_equivalente_de_lema_con_dos_hipotesis.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Formulacion_equivalente_de_lema_con_dos_hipotesis_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/2_Conectivas/Formulacion_equivalente_de_lema_con_dos_hipotesis.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Formulacion_equivalente_de_lema_con_dos_hipotesis_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/4V9z8M04f9U][vídeo]].
 #+INCLUDE: "./src/2_Conectivas/Formulacion_equivalente_de_lema_con_dos_hipotesis.lean" src lean :lines "7-"
 
-*** Caracterización de máximo común divisor igual al primer número
+*** En los naturales, mcd(x,y) = x syss x divide a y 
 + Enlaces al [[./src/2_Conectivas/Caracterizacion_de_maximo_comun_divisor_igual_al_primer_numero.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/2_Conectivas/Caracterizacion_de_maximo_comun_divisor_igual_al_primer_numero_SC.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/2_Conectivas/Caracterizacion_de_maximo_comun_divisor_igual_al_primer_numero.lean" src lean :lines "7-"
 

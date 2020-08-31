@@ -20,8 +20,9 @@ Los teoremas utilizados son los siguientes:
 + and_imp : (P ∧ Q → R) ↔ (P → (Q → R))
 + dvd_antisymm : a ∣ b → b ∣ a → a = b 
 + dvd_gcd_iff : c ∣ gcd a b ↔ c ∣ a ∧ c ∣ b
-+ dvd_refl a : a ∣ a
++ dvd_refl: a ∣ a
 + eq.trans : a = b → b = c → a = c
++ gcd_dvd : gcd a b ∣ a ∧ gcd a b ∣ b
 + gcd_eq_left_iff_dvd : a ∣ b ↔ gcd a b = a 
 + id : P → P
 + iff.intro : (P → Q) → (Q → P) → (P ↔ Q)
