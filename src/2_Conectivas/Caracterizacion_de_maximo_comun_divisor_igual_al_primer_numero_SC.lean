@@ -1,4 +1,4 @@
--- En los naturales, mcd(a,b) = a syss a divide a b
+-- En los naturales: mcd(a,b) = a syss a divide a b
 -- ================================================
 
 -- Sean a y b son números naturales. Entonces
