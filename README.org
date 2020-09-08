@@ -1,3 +1,4 @@
+#+subtitle:
 #+TITLE: DAO (Demostración Asistida por Ordenador) con Lean
 #+AUTHOR: José A. Alonso
 #+DATE: <2020-08-23 Sun>

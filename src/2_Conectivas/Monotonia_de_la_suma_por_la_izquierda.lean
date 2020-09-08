@@ -69,7 +69,7 @@ example
 begin
   rw ← sub_nonneg,
   calc 0   ≤ b - a           : sub_nonneg.mpr hab
-       ... = c + b - (c + a) : ring
+       ... = c + b - (c + a) : by ring
 end
 
 -- 5ª demostración

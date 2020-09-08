@@ -6,6 +6,7 @@
 /Licencia
 /Makefile
 /_minted-DAO_con_Lean/
+/.vscode
 *.aux
 *.log
 *.toc
