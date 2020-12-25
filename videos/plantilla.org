@@ -1,0 +1,11 @@
+#+TITLE: Pruebas en Lean:
+
+En el vídeo se comentan ?? pruebas en Lean de la propiedad
+
+usando los estilos aplicativos, declarativos, funcional
+y automático. Los enlaces son
++  a la sesión en Lean Web.
++  al código.
++ https://bit.ly/32AyBuQ al libro "DAO (Demostración asistida por ordenador) con Lean".
++ https://bit.ly/34LaHzI al repositorio "DAO con Lean".
++ http://bit.ly/3rsOTS4  a la lista de vídeos de "DAO con Lean".
