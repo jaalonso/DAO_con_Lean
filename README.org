@@ -165,7 +165,7 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/La_suma_de_dos_funciones_pares_es_una_funcion_par.lean" src lean :lines "7-"
 
 *** La composición con una función par es par
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][sesión en Lean Web]] y al [[https://youtu.be/-yasv_XYkb8][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean" src lean :lines "7-"
 
 *** La composición de funciones impares es impar
