@@ -24,11 +24,20 @@ example
  : par f → par (g ∘ f) :=
 begin
   intros hf x,
-  simp,
+  unfold function.comp,
   rw hf,
 end
 
 -- 2ª demostración
+example
+ : par f → par (g ∘ f) :=
+begin
+  intros hf x,
+  simp,
+  rw hf,
+end
+
+-- 3ª demostración
 example
  : par f → par (g ∘ f) :=
 begin
@@ -39,7 +48,7 @@ begin
    ... = (g ∘ f) x  : rfl
 end
 
--- 3ª demostración
+-- 4ª demostración
 example
  : par f → par (g ∘ f) :=
 begin

@@ -17,30 +17,22 @@ def par (f : ℝ → ℝ) : Prop :=
 
 -- ----------------------------------------------------
 -- Ejercicio 2. Definir la función
---    suma_funciones : (ℝ → ℝ) → (ℝ → ℝ) → (ℝ → ℝ)
--- tal que (suma_funciones f g) es la suma de las
--- funciones f y g.
+--    suma : (ℝ → ℝ) → (ℝ → ℝ) → (ℝ → ℝ)
+-- tal que (suma f g) es la suma de las funciones f y g.
 -- ----------------------------------------------------
 
 @[simp]
-def suma_funciones (f g: ℝ → ℝ) : ℝ → ℝ :=
+def suma (f g: ℝ → ℝ) : ℝ → ℝ :=
 λ x, f x + g x
 
 -- ----------------------------------------------------
--- Ejercicio 3. Definir la notación (f + g) para
--- representar (suma_funciones f g)
--- ----------------------------------------------------
-
-notation f + g := suma_funciones f g
-
--- ----------------------------------------------------
--- Ejercicio 4. Demostrar que la suma de funciones
+-- Ejercicio 3. Demostrar que la suma de funciones
 -- pares es par.
 -- ----------------------------------------------------
 
 -- 1ª demostración
 example :
-  par f → par g →  par (f + g) :=
+  par f → par g →  par (suma f g) :=
 begin
   intro hf,
   unfold par at hf,
@@ -48,32 +40,32 @@ begin
   unfold par at hg,
   unfold par,
   intro x,
-  unfold suma_funciones,
+  unfold suma,
   rw hf,
   rw hg,
 end
 
 -- 2ª demostración
 example :
-  par f → par g →  par (f + g) :=
+  par f → par g →  par (suma f g) :=
 begin
   intros hf hg x,
-  simp [suma_funciones],
+  simp [suma],
   rw [hf, hg],
 end
 
 -- 3ª demostración
 example :
-  par f → par g →  par (f + g) :=
+  par f → par g →  par (suma f g) :=
 begin
   intros hf hg x,
-  unfold suma_funciones,
+  unfold suma,
   rw [hf, hg],
 end
 
 -- 4ª demostración
 example :
-  par f → par g →  par (f + g) :=
+  par f → par g →  par (suma f g) :=
 begin
   intros hf hg x,
   calc (f + g) (-x)
@@ -85,7 +77,7 @@ end
 
 -- 5ª demostración
 example :
-  par f → par g →  par (f + g) :=
+  par f → par g →  par (suma f g) :=
 begin
   intros hf hg x,
   calc (f + g) (-x)

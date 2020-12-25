@@ -161,77 +161,106 @@ reescritura.
 ** Ejercicios sobre el cuantificador universal
 
 *** La suma de dos funciones pares es una función par
-+ Enlaces al [[./src/3_Cuantificadores/La_suma_de_dos_funciones_pares_es_una_funcion_par.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_suma_de_dos_funciones_pares_es_una_funcion_par_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_suma_de_dos_funciones_pares_es_una_funcion_par.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_suma_de_dos_funciones_pares_es_una_funcion_par_SC.lean][sesión en Lean Web]] y al [[https://youtu.be/m5ZEcojgHFw][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/La_suma_de_dos_funciones_pares_es_una_funcion_par.lean" src lean :lines "7-"
 
 *** La composición con una función par es par
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean" src lean :lines "7-"
 
 *** La composición de funciones impares es impar
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean" src lean :lines "7-"
 
 *** La composición de funciones crecientes es creciente
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean" src lean :lines "7-"
 
 *** La composición de una función creciente y una decreciente es decreciente
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente.lean" src lean :lines "7-"
 
 *** f es creciente syss ∀ x y, x < y → f x ≤ f y
-+ Enlaces al [[./src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fx≤fy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fx≤fy_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fx≤fy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fx≤fy.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fx≤fy.lean" src lean :lines "7-"
 
 *** Una función creciente e involutiva es la identidad
-+ Enlaces al [[./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ a b : ℝ, a = a * b → a = 0 ∨ b = 1
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ x : ℝ, x^2 = 1 → x = 1 ∨ x = -1
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ x y : ℝ, x^2 = y^2 → x = y ∨ x = -y
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean" src lean :lines "7-"
 
 ** Cuantificador existencial
 
 *** Eliminación del cuantificador existencial
-+ Enlaces al [[./src/3_Cuantificadores/Eliminacion_del_cuantificador_existencial.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Eliminacion_del_cuantificador_existencial_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Eliminacion_del_cuantificador_existencial.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Eliminacion_del_cuantificador_existencial.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Eliminacion_del_cuantificador_existencial.lean" src lean :lines "7-"
 
 *** Introducción del cuantificador existencial
-+ Enlaces al [[./src/3_Cuantificadores/Introduccion_del_cuantificador_existencial.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Introduccion_del_cuantificador_existencial_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Introduccion_del_cuantificador_existencial.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Introduccion_del_cuantificador_existencial.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Introduccion_del_cuantificador_existencial.lean" src lean :lines "7-"
 
 ** Ejercicios con el cuantificador existencial
 
 *** Propiedad: ∃ k, n = k + 1 ⊢ n > 0
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean" src lean :lines "7-"
 
 *** Propiedad transitiva de la divisibilidad
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean" src lean :lines "7-"
 
 *** Propiedad: Si divide a los sumandos divide a la suma
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean" src lean :lines "7-"
 
 *** Propiedad: Si divide a los sumandos divide a la suma (con condicionales)
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_con_condicionales.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_con_condicionales_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_con_condicionales.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_con_condicionales.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_con_condicionales.lean" src lean :lines "7-"
 
 *** CNS de divisible por cero
-+ Enlaces al [[./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/CNS_de_divisible_por_cero_SC.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean" src lean :lines "7-"
 
+*** Propiedad: Si (g ∘ f) es suprayectiva, entonces g es suprayectiva
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean" src lean :lines "7-"
+
+*** Propiedad: La composición de funciones suprayectivas es suprayectiva
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean" src lean :lines "7-"
+
+* Contradicción y negación
+
+** Falso y negación
+
+*** Principio de no contradicción
++ Enlaces al [[./src/3_Cuantificadores/Principio_de_no_contradiccion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Principio_de_no_contradiccion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Principio_de_no_contradiccion.lean" src lean :lines "7-"
+
+*** Introducción de la doble negación
++ Enlaces al [[./src/3_Cuantificadores/Introduccion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Introduccion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Introduccion_de_la_doble_negacion.lean" src lean :lines "7-"
+
+** Principio del tercio excluso y reducción al absurdo
+
+*** Eliminación de la doble negación
++ Enlaces al [[./src/3_Cuantificadores/Eliminacion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Eliminacion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Eliminacion_de_la_doble_negacion.lean" src lean :lines "7-"
+
+*** Demostración por casos: P → R, ¬P → Q, Q → R ⊢ R
++ Enlaces al [[./src/3_Cuantificadores/Demostracion_por_casos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Demostracion_por_casos.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Demostracion_por_casos.lean" src lean :lines "7-"
 
 * Apéndices
 

@@ -4,8 +4,8 @@
 -- Demostrar que
 --    P → P
 
-import tactic          
-variables (P : Prop)   
+import tactic
+variables (P : Prop)
 
 -- 1ª demostración
 example : P → P :=
@@ -27,7 +27,7 @@ example : P → P :=
 begin
   assume h : P,
   show P, from h,
-end  
+end
 
 -- 5ª demostración
 example : P → P :=
@@ -35,7 +35,8 @@ assume h, h
 
 -- 6ª demostración
 example : P → P :=
-by hint
+-- by hint
+by tauto
 
 -- 7ª demostración
 example : P → P :=
@@ -44,4 +45,3 @@ by finish
 -- 8ª demostración
 example : P → P :=
 by simp
-

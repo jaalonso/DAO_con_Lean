@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------
--- Ejercicio. Realizar las siguientes acciones 
+-- Ejercicio. Realizar las siguientes acciones
 -- 1. Importar la teoría de los números reales.
 -- 2. Importar la librería con la táctica de sugerencias.
 -- 3. Declarar la teoría como no cumputable.
@@ -17,7 +17,7 @@ open_locale classical  -- 4
 -- tal que (up_bounds A) es el conjunto de las cotas superiores de A.
 -- ----------------------------------------------------------------------
 
-def up_bounds (A : set ℝ) : set ℝ := 
+def up_bounds (A : set ℝ) : set ℝ :=
   { x : ℝ | ∀ a ∈ A, a ≤ x}
 
 -- ---------------------------------------------------------------------
@@ -26,7 +26,7 @@ def up_bounds (A : set ℝ) : set ℝ :=
 -- tal que (is_max a A) afirma que a es un máximo de A.
 -- ----------------------------------------------------------------------
 
-def is_max (a : ℝ) (A : set ℝ) : Prop := 
+def is_max (a : ℝ) (A : set ℝ) : Prop :=
   a ∈ A ∧ a ∈ up_bounds A
 
 -- ---------------------------------------------------------------------
@@ -44,11 +44,11 @@ infix ` is_a_max_of `:55 := is_max
 -- 1ª demostración
 -- ===============
 
-lemma unique_max 
-  (A : set ℝ) 
-  (x y : ℝ) 
-  (hx : x is_a_max_of A) 
-  (hy : y is_a_max_of A) 
+lemma unique_max
+  (A : set ℝ)
+  (x y : ℝ)
+  (hx : x is_a_max_of A)
+  (hy : y is_a_max_of A)
   : x = y :=
 begin
   cases hx with x_in x_up,
@@ -61,25 +61,25 @@ end
 -- Comentarios:
 -- 1. La táctica (cases h with h1 h2) cuando h es una conjunción aplica
 --    la eliminación de la conjunción; es decir si (h : A ∧ B) la cambia
---    por (h1 : A) y (h2 : B). 
+--    por (h1 : A) y (h2 : B).
 -- 2. La táctica (specialize h y) cuando h es del tipo (∀ x : α, P x)
 --    aplica la eliminación del cuantificador universal; es decir
---    sustituye h por (y : α) y (h : P y). 
--- 3. La táctica (specialize h y h1) cuando h es del tipo 
+--    sustituye h por (y : α) y (h : P y).
+-- 3. La táctica (specialize h y h1) cuando h es del tipo
 --    (∀ x : α, P x → Q x) y h1 es del tipo (P y) aplica la eliminación
 --    del cuantificador universal y de la implicación; es decir
---    sustituye h por (y : α) y (h : Q y).  
+--    sustituye h por (y : α) y (h : Q y).
 -- 4. La táctica linarith intenta demostrar la conclusión mediante la
 --    aritmética lineal.
 
 -- 2ª demostración
 -- ===============
 
-example 
-  (A : set ℝ) 
-  (x y : ℝ) 
-  (hx : x is_a_max_of A) 
-  (hy : y is_a_max_of A) 
+example
+  (A : set ℝ)
+  (x y : ℝ)
+  (hx : x is_a_max_of A)
+  (hy : y is_a_max_of A)
   : x = y :=
 begin
   have : x ≤ y, from hy.2 x hx.1,
@@ -93,11 +93,11 @@ end
 -- 3ª demostración
 -- ===============
 
-example 
-  (A : set ℝ) 
-  (x y : ℝ) 
-  (hx : x is_a_max_of A) 
-  (hy : y is_a_max_of A) 
+example
+  (A : set ℝ)
+  (x y : ℝ)
+  (hx : x is_a_max_of A)
+  (hy : y is_a_max_of A)
   : x = y :=
 begin
   apply le_antisymm,
@@ -114,11 +114,11 @@ end
 -- 4ª demostración
 -- ===============
 
-example 
-  (A : set ℝ) 
-  (x y : ℝ) 
-  (hx : x is_a_max_of A) 
-  (hy : y is_a_max_of A) 
+example
+  (A : set ℝ)
+  (x y : ℝ)
+  (hx : x is_a_max_of A)
+  (hy : y is_a_max_of A)
   : x = y :=
 le_antisymm
   ( have h1 : x ∈ A := hx.1,
@@ -133,16 +133,16 @@ le_antisymm
 -- 5ª demostración
 -- ===============
 
-example 
-  (A : set ℝ) 
-  (x y : ℝ) 
-  (hx : x is_a_max_of A) 
-  (hy : y is_a_max_of A) 
+example
+  (A : set ℝ)
+  (x y : ℝ)
+  (hx : x is_a_max_of A)
+  (hy : y is_a_max_of A)
   : x = y :=
 le_antisymm (hy.2 x hx.1) (hx.2 y hy.1)
 
 -- Comentario: Se ha usado el lema
--- + le_antisymm : a ≤ b → b ≤ a → a = b 
+-- + le_antisymm : a ≤ b → b ≤ a → a = b
 
 -- ---------------------------------------------------------------------
 -- Ejercicio. Definir la función
@@ -150,7 +150,7 @@ le_antisymm (hy.2 x hx.1) (hx.2 y hy.1)
 -- tal que (low_bounds A) es el conjunto de las cotas inferiores de A.
 -- ----------------------------------------------------------------------
 
-def low_bounds (A : set ℝ) := 
+def low_bounds (A : set ℝ) :=
   { x : ℝ | ∀ a ∈ A, x ≤ a}
 
 -- ---------------------------------------------------------------------
@@ -159,7 +159,7 @@ def low_bounds (A : set ℝ) :=
 -- tal que (is_inf x A) afirma que x es el ínfimo de A.
 -- ----------------------------------------------------------------------
 
-def is_inf (x : ℝ) (A : set ℝ) : Prop := 
+def is_inf (x : ℝ) (A : set ℝ) : Prop :=
   x is_a_max_of (low_bounds A)
 
 -- ---------------------------------------------------------------------
@@ -177,10 +177,10 @@ infix ` is_an_inf_of `:55 := is_inf
 -- 1ª demostración
 -- ===============
 
-lemma inf_lt 
-  {A : set ℝ} 
-  {x : ℝ} 
-  (hx : x is_an_inf_of A) 
+lemma inf_lt
+  {A : set ℝ}
+  {x : ℝ}
+  (hx : x is_an_inf_of A)
   : ∀ y, x < y → ∃ a ∈ A, a < y :=
 begin
   intro y,
@@ -193,7 +193,7 @@ end
 -- Comentarios:
 -- 1. La táctica (intro y) cuando la conclusión es una forma universal
 --    aplica la regla de introducción del cuantificador universal; es
---    decir, si la conclusión es (∀ x : α, P x) añade la hipótesis (y : α)   
+--    decir, si la conclusión es (∀ x : α, P x) añade la hipótesis (y : α)
 --    y cambia la conclusión por (P y).
 -- 2. La táctica contrapose cuando la conclusión es una implicación, la
 --    cambia por su contrapositiva; es decir, si la conclusión es (A → B)
@@ -208,9 +208,9 @@ end
 -- ===============
 
 example
-  {A : set ℝ} 
-  {x : ℝ} 
-  (hx : x is_an_inf_of A) 
+  {A : set ℝ}
+  {x : ℝ}
+  (hx : x is_an_inf_of A)
   : ∀ y, x < y → ∃ a ∈ A, a < y :=
 begin
   intro y,
@@ -229,11 +229,11 @@ end
 
 -- ---------------------------------------------------------------------
 -- Ejercicio. Demostrar que si (y ≤ x + ε) para todo número positivo ε,
--- entonces y ≤ x. 
+-- entonces y ≤ x.
 -- ----------------------------------------------------------------------
 
-lemma le_of_le_add_eps 
-  {x y : ℝ} 
+lemma le_of_le_add_eps
+  {x y : ℝ}
   : (∀ ε > 0, y ≤ x + ε) →  y ≤ x :=
 begin
   -- Let's prove the contrapositive, asking Lean to push negations right away.
@@ -356,7 +356,7 @@ begin
     -- Lean will write what it found in the Lean message window when cursor is on
     -- that line, so that we can replace it by the lemma. We see `le_max_left` which
     -- says `a ≤ max a b`. Actually there is a more specific lemma `le_abs_self`
-  ... ≤ x + |u N - x| : add_le_add (by linarith) (by library_search)
+  ... ≤ x + |u N - x| : add_le_add (by linarith) (by exact le_abs_self (u N - x))
   ... ≤ x + ε         : add_le_add (by linarith) (HN N (by linarith)),
 end
 
@@ -381,7 +381,7 @@ begin
   -- a positive number is positive, let's state that is suffices
   -- to prove that `n+1`, seen as a real number, is positive, and ask `library_search`
   suffices : (n + 1 : ℝ) > 0,
-  { library_search },
+  { exact one_div_pos.mpr this },
   -- Now we want to reduce to a statement about natural numbers, not real numbers
   -- coming from natural numbers.
   norm_cast,
@@ -400,8 +400,8 @@ positive. There is also a variant on `norm_cast` that combines it with `exact`.
 The term mode analogue of `intro` is `λ`. We get down to:
 -/
 
-example : ∀ n : ℕ, 1/(n+1 : ℝ) > 0 :=
-λ n, one_div_pos_of_pos (by exact_mod_cast nat.succ_pos n)
+-- example : ∀ n : ℕ, 1/(n+1 : ℝ) > 0 :=
+-- λ n, one_div_pos_of_pos (by exact_mod_cast nat.succ_pos n)
 
 /-
 The next proof uses mostly known things, so we will commment only new aspects.
@@ -488,5 +488,3 @@ begin
     intro n,
     exact y_mino (u n) (huA n) },
 end
-
-
