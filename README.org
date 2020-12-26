@@ -240,27 +240,42 @@ reescritura.
 + Enlaces al [[./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean" src lean :lines "7-"
 
-* Contradicción y negación
+* Límites de sucesiones
+
+*** Límite de sucesiones constantes
++ Enlaces al [[./src/5_Limites/Limite_de_sucesiones_constantes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Limite_de_sucesiones_constantes.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/Limite_de_sucesiones_constantes.lean" src lean :lines "7-"
+
+* Negación
 
 ** Falso y negación
 
 *** Principio de no contradicción
-+ Enlaces al [[./src/3_Cuantificadores/Principio_de_no_contradiccion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Principio_de_no_contradiccion.lean][sesión en Lean Web]] y al vídeo.
-#+INCLUDE: "./src/3_Cuantificadores/Principio_de_no_contradiccion.lean" src lean :lines "7-"
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Principio_de_no_contradiccion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Principio_de_no_contradiccion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Principio_de_no_contradiccion.lean" src lean :lines "7-"
 
 *** Introducción de la doble negación
-+ Enlaces al [[./src/3_Cuantificadores/Introduccion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Introduccion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
-#+INCLUDE: "./src/3_Cuantificadores/Introduccion_de_la_doble_negacion.lean" src lean :lines "7-"
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean" src lean :lines "7-"
 
 ** Principio del tercio excluso y reducción al absurdo
 
 *** Eliminación de la doble negación
-+ Enlaces al [[./src/3_Cuantificadores/Eliminacion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Eliminacion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
-#+INCLUDE: "./src/3_Cuantificadores/Eliminacion_de_la_doble_negacion.lean" src lean :lines "7-"
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Eliminacion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Eliminacion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Eliminacion_de_la_doble_negacion.lean" src lean :lines "7-"
 
 *** Demostración por casos: P → R, ¬P → Q, Q → R ⊢ R
-+ Enlaces al [[./src/3_Cuantificadores/Demostracion_por_casos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Demostracion_por_casos.lean][sesión en Lean Web]] y al vídeo.
-#+INCLUDE: "./src/3_Cuantificadores/Demostracion_por_casos.lean" src lean :lines "7-"
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Demostracion_por_casos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Demostracion_por_casos.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Demostracion_por_casos.lean" src lean :lines "7-"
+
+*** Principio de contraposición
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Principio_de_contraposicion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Principio_de_contraposicion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Principio_de_contraposicion.lean" src lean :lines "7-"
+
+*** Definición del condicional mediante la negación y la disyunción
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean" src lean :lines "7-"
+
 
 * Apéndices
 

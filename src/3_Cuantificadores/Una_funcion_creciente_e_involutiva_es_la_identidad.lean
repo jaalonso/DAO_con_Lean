@@ -51,10 +51,10 @@ begin
   cases (le_total (f x) x) with h1 h2,
   { apply antisymm h1,
     calc x
-         = f (f x) : by exact (h' x).symm
-     ... ≤ f x     : by exact h h1 },
+         = f (f x) : (h' x).symm
+     ... ≤ f x     : h h1 },
   { apply antisymm _ h2,
     calc f x
-         ≤ f (f x) : by exact h h2
-     ... = x       : by exact h' x },
+         ≤ f (f x) : h h2
+     ... = x       : h' x },
 end

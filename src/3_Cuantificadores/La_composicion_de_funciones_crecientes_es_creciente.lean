@@ -82,7 +82,7 @@ have h2 : f x₁ ≤ f x₂,
 show (g ∘ f) x₁ ≤ (g ∘ f) x₂, from
   calc (g ∘ f) x₁
        = g (f x₁)   : rfl
-   ... ≤ g (f x₂)   : by exact hg h2
+   ... ≤ g (f x₂)   : hg h2
    ... ≤ (g ∘ f) x₂ : by refl
 
 -- Nota. La función predefinida monotone es equivalente

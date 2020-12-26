@@ -1,6 +1,8 @@
 + =(apply h)=, cuando =h= es una implicación, aplica la regla
   de eliminación de la implicación; es decir, si =h= es =(P → Q)= y la
   conclusión coincide con =Q=, entonces sustituye la conclusión por =P=.
++ =apply h=, con las hipótesis =h : ∀ (x : U), P x → Q x= y =a : U= y la
+  conclusión =Q a=, cambia la conclusión a =P a=.
 + =assumption= concluye la demostración si la conclusión coincide con alguna de
   las hipótesis.
 + =exact h= concluye la demostración si =h= es del tipo de la conclusión.
@@ -12,15 +14,30 @@
   entonces elimina =h= y añade las hipótesis =(h1 : P)= y =(h2 : Q)=.
 + =(cases h with h1 h2)=, cuando la hipótesis =h= es una disyunción aplica la
   regla de eliminación de la disyunción; es decir, si =h= es =(P ∨ Q)=,
-  entonces elimina =h= y crea dos casos: uno añadiendo la hipótesis =(h1 : P)= 
+  entonces elimina =h= y crea dos casos: uno añadiendo la hipótesis =(h1 : P)=
   y otro añadiendo la hipótesis =(h2 : Q)=.
++ =(cases h with a ha)=, cuando la hipótesis =h= es un existencial aplica la
+  regla de eliminación del existencia; es decir, si =h= es =(∃ x : U, P x)=,
+  entonces elimina =h= y añade las hipótesis =(a : U)= y =(ha : P a)=.
 + =intro h=, cuando la conclusión es una implicación, aplica la regla de
   introducción de la implicación; es decir, si la conclusión es =(P → Q)=
   entonces añade la hipótesis =(h : P)= y cambia la conclusión a =Q=.
++ =intros h1 ... hn= introduce las hipótesis h1, ..., hn correspondiente a la
+  introducciones de condicionales y universales de la conclusión.
++ =intro a=, cuando la conclusión es =∀ x : U, P x=, aplica la regla de
+  introducción del cuantificador universal; es decir, añade la hipótesis =a : U=
+  y cambia la conclusión a =P a=
 + =finish= demuestra la conclusión de forma automática.
 + =linarith= demuestra la conclusión mediante aritmética lineal.
 + =nlinarith= es una extensión de =linarith= con un preprocesamiento que permite
   resolver problemas aritméticos no lineales.
++ =norm_num= normaliza expresiones aritméticas.
++ =rcases h with ⟨a, rfl⟩=, cuando =h= es una fórmula existencial cuyo cuerpo es
+  una ecuación, sustituye la variable del existencial por =a= y reescribe con la
+  ecuación obtenida.
++ =refl= reduce ambos términos de una ecuación y comprueba que son iguales.
++ =rename_var x y at h=, cuando se tiene la hipótesis =h : ∀ x, P x= la
+  cambia a =h : ∀ y, P y=.
 + =ring= demuestra la conclusión normalizando las expresiones con las regñlas de
   los anillos.
 + =rintro ⟨h1, h2⟩=, cuando la conclusión es una implicación cuyo antecedente es
@@ -34,10 +51,15 @@
   entonces crea dos casos: en el primero añade la hipótesis =(h1 : P)= y cambia
   a conclusión a R; en el segundo añade la hipótesis =(h2 : Q)= y cambia la
   conclusión a =R=.
++ =rintro ⟨a, rfl⟩=, cuando la conclusión es una fórmula existencial cuyo cuerpo es
+  una ecuación, sustituye la variable del existencial por =a= y reescribe con la
+  ecuación obtenida.
 + =rw h= cuando =h= es una igualdad sustituye en la conclusión el término
   izquierdo de =h= por el derecho.
 + =rw h=, cuando =h= es una equivalencia como =(P ↔ Q)=, sustituye en la
   conclusión =P= por =Q=.
++ =rw [h1, ... hn]= reescribe usando sucesivamente las ecuaciones =h1=, ...,
+  =hn=.
 + =rw ← h= cuando =h= es una igualdad sustituye en la conclusión el término
   derecho de =h= por el izquierdo
 + =rw h at h'= cuando =h= es una igualdad sustituye en la hipótesis =h'= el
@@ -60,12 +82,24 @@
 + =simp [h]= aplica reglas de simplificación, ampliadas con =h=, a la
   conclusión.
 + =solve_by_elim= intenta demostrar el objetivo aplicándole reglas de
-  eliminación. 
+  eliminación.
++ Si =specialize h a=, cuando =h : ∀ x : U, P x= y =a : U=, cambia =h= en
+  =h : P a=.
 + =split=, cuando la conclusión es una conjunción, aplica la regla de
   eliminación de la conjunción; es decir, si la conclusión es =(P ∧ Q)=,
   entonces crea dos subojetivos: el primero en el que la conclusión es =P= y el
-  segundo donde es =Q=. 
+  segundo donde es =Q=.
++ =split=, cuando la conclusión es un bicondicional, aplica la regla de
+  eliminación del bicondicional; es decir, si la conclusión es =(P ↔ Q)=,
+  entonces crea dos subojetivos: el primero en el que la conclusión es =P → Q= y el
+  segundo donde es =Q → P=.
 + =tauto= demuestra automáticamente las tautologías.
++ =tidy= demuestra la conclusión usando una variedad de tácticas conservativas.
++ =unfold f= expande la definición de la función =f= en la conclusión.
++ =unfold f at h= expande la definición de la función =f= en la hipótesis =h=.
++ =use a=, cuando la conclusión =∃ x : U, P x= y se tiene la hipótesis =x : U=,
+  aplica la regla de introducción el cuantificador existencial; es decir, cambia
+  la conclusión a =P a=.
 
 ** Demostraciones estructuradas
 + =(assume h : P)=, cuando la conclusión es de la forma =(P → Q)=, añade la
@@ -77,12 +111,12 @@
 ** Composiciones y descomposiciones
 + Si =h1= es una demostración de =(P → Q)= y =h2= es una demostración de =P=,
   entonces =(h1 h2)= es una demostración de =Q=.
-+ Si =h= es la conjunción =(P ∧ Q)=, entonces =h.letf= es =P= y =h.right= es =Q=. 
-+ Si =h= es la conjunción =(P ∧ Q)=, entonces =h.1= es =P= y =h.2= es =Q=. 
++ Si =h= es la conjunción =(P ∧ Q)=, entonces =h.letf= es =P= y =h.right= es =Q=.
++ Si =h= es la conjunción =(P ∧ Q)=, entonces =h.1= es =P= y =h.2= es =Q=.
 + Si =h= es la equivalencia =(P ↔ Q)=, entonces =h.mp= es =(P → Q)= y =h.mpr= es
   =(Q → P)=.
-+ Si =h= es la equivalencia =(P ↔ Q)=, entonces =h.1= es =(P → Q)= y =h.2= es 
-  =(Q → P)=. 
++ Si =h= es la equivalencia =(P ↔ Q)=, entonces =h.1= es =(P → Q)= y =h.2= es
+  =(Q → P)=.
++ Si =h : ∀ x : U, P x= y =a : U=, entonces =h a= es =P a=.
 + Si =h= es una igualdad entonces =h ▸ h'= es la expresión obtenida sustituyendo
-  en h' el término izquierdo de =h= por el derecho. 
-
+  en h' el término izquierdo de =h= por el derecho.

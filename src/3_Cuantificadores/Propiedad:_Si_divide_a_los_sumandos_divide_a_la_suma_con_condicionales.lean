@@ -10,11 +10,14 @@ variables (a b c : ℤ)
 --    a ∣ b → a ∣ c → a ∣ b+c
 -- ----------------------------------------------------
 
+#print notation (∣)
+
 -- 1ª demostración
 example :
   a ∣ b → a ∣ c → a ∣ b+c :=
 begin
   intros hab hac,
+  -- unfold has_dvd.dvd at hab,
   cases hab with k hk,
   rw hk,
   cases hac with l hl,
@@ -28,6 +31,7 @@ example :
   a ∣ b → a ∣ c → a ∣ b+c :=
 begin
   intros hab hac,
+  -- unfold has_dvd.dvd at hab,
   rcases hab with ⟨k, rfl⟩,
   rcases hac with ⟨l, rfl⟩,
   use k+l,

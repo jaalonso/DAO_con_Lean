@@ -2,3 +2,4 @@
 
 + [[./La_suma_de_dos_funciones_pares_es_una_funcion_par.org][La suma de dos funciones pares es una función par]].
 + [[./La_composicion_con_una_funcion_par_es_par.org][La composición con una función par es par]].
++ [[./La_composicion_de_funciones_impares_es_impar.org][La composición de funciones impares es impar]].

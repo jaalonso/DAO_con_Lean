@@ -23,9 +23,13 @@ def impar (f : ℝ → ℝ) : Prop :=
 example :
   impar f → impar g →  impar (g ∘ f) :=
 begin
-  intros hf hg x,
-  simp,
+  intros hf hg,
+  unfold impar at *,
+  intro a,
+  unfold function.comp,
+  specialize hf a,
   rw hf,
+  specialize hg (f a),
   rw hg,
 end
 
@@ -33,12 +37,22 @@ end
 example :
   impar f → impar g →  impar (g ∘ f) :=
 begin
-  intros hf hg x,
+  intros hf hg a,
+  simp,
+  rw hf,
+  rw hg,
+end
+
+-- 3ª demostración
+example :
+  impar f → impar g →  impar (g ∘ f) :=
+begin
+  intros hf hg a,
   simp,
   rw [hf, hg],
 end
 
--- 3ª demostración
+-- 4ª demostración
 example :
   impar f → impar g →  impar (g ∘ f) :=
 begin
@@ -50,7 +64,7 @@ begin
    ... = -(g ∘ f) x  : rfl,
 end
 
--- 3ª demostración
+-- 5ª demostración
 example :
   impar f → impar g →  impar (g ∘ f) :=
 begin

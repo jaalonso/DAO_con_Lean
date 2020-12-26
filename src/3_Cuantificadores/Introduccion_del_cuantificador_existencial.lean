@@ -21,6 +21,7 @@ exists.intro 4
   ( show 8 = 2 * 4,
       from rfl)
 
+
 -- 3ª demostración
 example : ∃ k : ℕ, 8 = 2*k :=
 exists.intro 4 rfl

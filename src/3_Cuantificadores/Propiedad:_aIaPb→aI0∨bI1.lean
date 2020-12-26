@@ -18,7 +18,7 @@ begin
   intro,
   have h : a * (1 - b) = 0,
     calc a * (1 - b)
-         = a * 1 - a * b : by exact mul_sub a 1 b
+         = a * 1 - a * b : mul_sub a 1 b
      ... = a - a * b     : by simp
      ... = 0             : by linarith,
   rw mul_eq_zero at h,

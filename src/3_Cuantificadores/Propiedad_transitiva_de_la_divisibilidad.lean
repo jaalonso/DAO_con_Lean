@@ -21,7 +21,7 @@ begin
   cases h₂ with l hl,
   use k*l,
   calc c = b * l       : hl
-     ... = (a * k) * l : by rw hk
+     ... = (a * k) * l : hk
      ... = a * (k * l) : mul_assoc a k l,
 end
 
@@ -47,7 +47,7 @@ begin
   cases h₂ with l hl,
   use k*l,
   calc c = b * l       : hl
-     ... = (a * k) * l : by rw hk
+     ... = (a * k) * l : hk
      ... = a * (k * l) : by ring,
 end
 

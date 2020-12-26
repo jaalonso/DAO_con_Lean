@@ -13,3 +13,5 @@
 *.tex
 /Descripcion.*
 excluido/*
+/src/5_Limites/05_sequence_limits.lean
+/src/5_Limites/tuto_lib.lean
