@@ -8,7 +8,7 @@ variables (f g : ℝ → ℝ)
 -- ----------------------------------------------------
 -- Ejercicio 1. Definir la función
 --    creciente : (ℝ → ℝ) → Prop
--- tal que (creciente f) espresa que f es creciente.
+-- tal que (creciente f) expresa que f es creciente.
 -- ----------------------------------------------------
 
 def creciente (f : ℝ → ℝ) : Prop :=
@@ -17,7 +17,7 @@ def creciente (f : ℝ → ℝ) : Prop :=
 -- ----------------------------------------------------
 -- Ejercicio 2. Definir la función
 --    decreciente : (ℝ → ℝ) → Prop
--- tal que (decreciente f) espresa que f es decreciente.
+-- tal que (decreciente f) expresa que f es decreciente.
 -- ----------------------------------------------------
 
 def decreciente (f : ℝ → ℝ) : Prop :=
@@ -75,14 +75,14 @@ begin
   exact hg (hf h),
 end
 
--- 4ª demostración
+-- 5ª demostración
 example
   (hf : creciente f)
   (hg : decreciente g)
   : decreciente (g ∘ f) :=
 λ x y h, hg (hf h)
 
--- 5ª demostración
+-- 6ª demostración
 example
   (hf : creciente f)
   (hg : decreciente g)
@@ -94,7 +94,7 @@ have h1 : f x ≤ f y,
 show (g ∘ f) x ≥ (g ∘ f) y,
   from hg h1
 
--- 6ª demostración
+-- 7ª demostración
 example
   (hf : creciente f)
   (hg : decreciente g)
@@ -104,14 +104,14 @@ assume h : x ≤ y,
 show (g ∘ f) x ≥ (g ∘ f) y,
   from hg (hf h)
 
--- 7ª demostración
+-- 8ª demostración
 example
   (hf : creciente f)
   (hg : decreciente g)
   : decreciente (g ∘ f) :=
 λ x y h, hg (hf h)
 
--- 8ª demostración
+-- 9ª demostración
 example
   (hf : creciente f)
   (hg : decreciente g)
