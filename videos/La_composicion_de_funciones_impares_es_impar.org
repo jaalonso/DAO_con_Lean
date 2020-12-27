@@ -1,8 +1,0 @@
-#+TITLE: Pruebas en Lean: La composición de dos funciones impares es una función impar
-
-En el vídeo se comentan 5 pruebas en Lean de la propiedad "La composición de dos funciones impares es una función impar". Los enlaces son
-+ https://bit.ly/2M0QhuW a la sesión en Lean Web.
-+ https://bit.ly/2Mbf3ZB al código.
-+ https://bit.ly/32AyBuQ al libro "DAO (Demostración asistida por ordenador) con Lean".
-+ https://bit.ly/34LaHzI al repositorio "DAO con Lean".
-+ http://bit.ly/3rsOTS4  a la lista de vídeos de "DAO con Lean".
