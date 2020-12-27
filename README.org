@@ -181,8 +181,8 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente.lean" src lean :lines "7-"
 
 *** f es creciente syss ∀ x y, x < y → f x ≤ f y
-+ Enlaces al [[./src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fxMIfy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fxMIfy.lean][sesión en Lean Web]] y al vídeo.
-#+INCLUDE: "./src/3_Cuantificadores/f_es_creciente_syss_∀xy,x<y→fxMIfy.lean" src lean :lines "7-"
++ Enlaces al [[./src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean" src lean :lines "7-"
 
 *** Una función creciente e involutiva es la identidad
 + Enlaces al [[./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][sesión en Lean Web]] y al vídeo.
