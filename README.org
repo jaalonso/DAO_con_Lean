@@ -169,11 +169,11 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_con_una_funcion_par_es_par.lean" src lean :lines "7-"
 
 *** La composición de funciones impares es impar
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean][sesión en Lean Web]] y al [[https://youtu.be/2phn0a_t3gE][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_funciones_impares_es_impar.lean" src lean :lines "7-"
 
 *** La composición de funciones crecientes es creciente
-+ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean][sesión en Lean Web]] y al [[https://youtu.be/iT_SYxgH0mQ][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_funciones_crecientes_es_creciente.lean" src lean :lines "7-"
 
 *** La composición de una función creciente y una decreciente es decreciente
@@ -245,6 +245,15 @@ reescritura.
 *** Límite de sucesiones constantes
 + Enlaces al [[./src/5_Limites/Limite_de_sucesiones_constantes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Limite_de_sucesiones_constantes.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/5_Limites/Limite_de_sucesiones_constantes.lean" src lean :lines "7-"
+
+*** Si el límite de la sucesión u es c y c > 0, entonces u(n) ≥ c/2 a partir de un N
++ Enlaces al [[./src/5_Limites/CN_de_limite.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/CN_de_limite.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/CN_de_limite.lean" src lean :lines "7-"
+
+*** Limite de la suma de dos sucesiones convergentes
++ Enlaces al [[./src/5_Limites/Limite_de_suma.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Limite_de_suma.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/Limite_de_suma.lean" src lean :lines "7-"
+
 
 * Negación
 

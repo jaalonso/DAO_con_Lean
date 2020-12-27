@@ -3,8 +3,11 @@
 Los teoremas utilizados son los siguientes:
 
 #+begin_src lean
++ abs_add : abs (a + b) ≤ abs a + abs b
++ abs_le : abs a ≤ b ↔ - b ≤ a ∧ a ≤ b
 + add_assoc : (a + b) + c = a + (b + c)
 + add_comm : a + b = b + a
++ add_halves : a / 2 + a / 2 = a
 + add_le_add : a ≤ b → c ≤ d → a + c ≤ b + d
 + add_le_add_left : a ≤ b → ∀ (c : ℝ), c + a ≤ c + b
 + add_le_add_right : a ≤ b → ∀ (c : ℝ), a + c ≤ b + c
@@ -32,13 +35,19 @@ Los teoremas utilizados son los siguientes:
 + exists.elim : ∃ x, p x → ∀ (a : α), p a → b → b
 + gcd_dvd : gcd a b ∣ a ∧ gcd a b ∣ b
 + gcd_eq_left_iff_dvd : a ∣ b ↔ gcd a b = a
++ ge_max_iff : r ≥ max p q  ↔ r ≥ p ∧ r ≥ q
 + id : P → P
 + iff.intro : (P → Q) → (Q → P) → (P ↔ Q)
 + le_add_of_nonneg_left : 0 ≤ b → a ≤ b + a
 + le_add_of_nonneg_right : 0 ≤ b → a ≤ a + b
++ le_max_left : p ≤ max p q
++ le_max_right : q ≤ max p q
 + le_of_lt : a < b → a ≤ b
++ le_of_max_le_left : max a b ≤ c → a ≤ c
++ le_of_max_le_right : max a b ≤ c → b ≤ c
 + le_total : a ≤ b ∨ b ≤ a
 + le_trans: a ≤ b → b ≤ c → a ≤ c
++ max_le_iff : max a b ≤ c ↔ a ≤ c ∧ b ≤ c
 + monotone.comp : monotone g → monotone f → monotone (g ∘ f)
 + mul_assoc : (a * b) * c = a * (b * c)
 + mul_comm : a * b = b * a
