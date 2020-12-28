@@ -181,11 +181,11 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/La_composicion_de_una_funcion_creciente_y_una_decreciente_es_decreciente.lean" src lean :lines "7-"
 
 *** f es creciente syss ∀ x y, x < y → f x ≤ f y
-+ Enlaces al [[./src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean][sesión en Lean Web]] y al [[https://youtu.be/KtNU-J7G1Ck][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/f_es_creciente_syss_∀xy,xMy→fxMIfy.lean" src lean :lines "7-"
 
 *** Una función creciente e involutiva es la identidad
-+ Enlaces al [[./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean][sesión en Lean Web]] y al [[https://youtu.be/YLp4a9nRuYg][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ a b : ℝ, a = a * b → a = 0 ∨ b = 1
@@ -213,8 +213,8 @@ reescritura.
 ** Ejercicios con el cuantificador existencial
 
 *** Propiedad: ∃ k, n = k + 1 ⊢ n > 0
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean][sesión en Lean Web]] y al vídeo.
-#+INCLUDE: "./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢n>0.lean" src lean :lines "7-"
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢nM0.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢nM0.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢nM0.lean" src lean :lines "7-"
 
 *** Propiedad transitiva de la divisibilidad
 + Enlaces al [[./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][sesión en Lean Web]] y al vídeo.

@@ -3,58 +3,67 @@
 
 import data.real.basic
 
-variables (x y : ℝ)
-variables (f g : ℝ → ℝ)
+variable (f : ℝ → ℝ)
 
 -- ----------------------------------------------------
 -- Ejercicio 1. Definir la función
 --    creciente : (ℝ → ℝ) → Prop
--- tal que (creciente f) espresa que f es creciente.
+-- tal que (creciente f) expresa que f es creciente.
 -- ----------------------------------------------------
 
 def creciente (f : ℝ → ℝ) : Prop :=
 ∀ {x₁ x₂}, x₁ ≤ x₂ → f x₁ ≤ f x₂
 
 -- ----------------------------------------------------
--- Ejercicio 2. Demostrar que si f es creciente y
---    ∀ x, f (f x) = x
--- entonces es la identidad.
+-- Ejercicio 2. Definir la función
+--    involutiva : (ℝ → ℝ) → Prop
+-- tal que (involutiva f) expresa que f es involutiva.
+-- ----------------------------------------------------
+
+def involutiva (f : ℝ → ℝ) : Prop :=
+∀ {x}, f (f x) = x
+
+-- ----------------------------------------------------
+-- Ejercicio 2. Demostrar que si f es creciente e
+-- involutiva, entonces f es la identidad.
 -- ----------------------------------------------------
 
 -- 1ª demostración
 example
-  (h : creciente f)
-  (h' : ∀ x, f (f x) = x)
-  : ∀ x, f x = x :=
+  (hc : creciente f)
+  (hi : involutiva f)
+  : f = id :=
 begin
-  intro x,
+  -- unfold creciente involutiva at *,
+  funext,
+  -- unfold id,
   cases (le_total (f x) x) with h1 h2,
   { apply antisymm h1,
     have h3 : f (f x) ≤ f x,
-      { apply h,
+      { apply hc,
         exact h1, },
-    rwa h' x at h3, },
+    rwa hi at h3, },
   { apply antisymm _ h2,
     have h4 : f x ≤ f (f x),
-      { apply h,
+      { apply hc,
         exact h2, },
-    rwa h' x at h4, },
+    rwa hi at h4, },
 end
 
 -- 2ª demostración
 example
-  (h : creciente f)
-  (h' : ∀ x, f (f x) = x)
-  : ∀ x, f x = x :=
+  (hc : creciente f)
+  (hi : involutiva f)
+  : f = id :=
 begin
-  intro x,
+  funext,
   cases (le_total (f x) x) with h1 h2,
   { apply antisymm h1,
     calc x
-         = f (f x) : (h' x).symm
-     ... ≤ f x     : h h1 },
+         = f (f x) : hi.symm
+     ... ≤ f x     : hc h1 },
   { apply antisymm _ h2,
     calc f x
-         ≤ f (f x) : h h2
-     ... = x       : h' x },
+         ≤ f (f x) : hc h2
+     ... = x       : hi },
 end

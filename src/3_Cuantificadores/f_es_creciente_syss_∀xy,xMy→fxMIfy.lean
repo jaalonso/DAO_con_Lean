@@ -21,7 +21,26 @@ def creciente (f : ℝ → ℝ) : Prop :=
 
 -- 1ª demostración
 example :
-  creciente f ↔ ∀ x y, x < y → f x ≤ f y :=
+  creciente f ↔ ∀ {x y}, x < y → f x ≤ f y :=
+begin
+  unfold creciente,
+  split,
+  { intros hf x y hxy,
+    apply hf,
+    -- by library_search
+    exact le_of_lt hxy, },
+  { intros h x y hxy,
+    have h1: x = y ∨ x < y,
+      apply eq_or_lt_of_le hxy,
+    cases h1 with h2 h3,
+    { rw h2, },
+    { apply h,
+      exact h3, }},
+end
+
+-- 2ª demostración
+example :
+  creciente f ↔ ∀ {x y}, x < y → f x ≤ f y :=
 begin
   split,
   { intros hf x y hxy,
@@ -36,9 +55,9 @@ begin
       exact h3, }},
 end
 
--- 2ª demostración
+-- 3ª demostración
 example :
-  creciente f ↔ ∀ x y, x < y → f x ≤ f y :=
+  creciente f ↔ ∀ {x y}, x < y → f x ≤ f y :=
 begin
   split,
   { intros hf x y hxy,
@@ -47,5 +66,5 @@ begin
   { intros h x y hxy,
     cases (eq_or_lt_of_le hxy) with h2 h3,
     { rw h2, },
-    { exact h x y h3, }},
+    { exact h h3, }},
 end
