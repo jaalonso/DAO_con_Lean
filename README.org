@@ -189,15 +189,15 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/Una_funcion_creciente_e_involutiva_es_la_identidad.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ a b : ℝ, a = a * b → a = 0 ∨ b = 1
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean][sesión en Lean Web]] y al [[https://youtu.be/sQAvWu3K4Nk][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_aIaPb→aI0∨bI1.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ x : ℝ, x^2 = 1 → x = 1 ∨ x = -1
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean][sesión en Lean Web]] y al [[https://youtu.be/XfLQOTMJe4A][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_x^2I1→xI1∨xI-1.lean" src lean :lines "7-"
 
 *** Propiedad: ∀ x y : ℝ, x^2 = y^2 → x = y ∨ x = -y
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean][sesión en Lean Web]] y al [[https://youtu.be/A01LeRgd37o][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_x^2Iy^2→xIy∨xI-y.lean" src lean :lines "7-"
 
 ** Cuantificador existencial

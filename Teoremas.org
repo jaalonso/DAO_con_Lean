@@ -7,6 +7,7 @@ Los teoremas utilizados son los siguientes:
 + abs_le : abs a ≤ b ↔ - b ≤ a ∧ a ≤ b
 + add_assoc : (a + b) + c = a + (b + c)
 + add_comm : a + b = b + a
++ add_eq_zero_iff_eq_neg : a + b = 0 ↔ a = -b
 + add_halves : a / 2 + a / 2 = a
 + add_le_add : a ≤ b → c ≤ d → a + c ≤ b + d
 + add_le_add_left : a ≤ b → ∀ (c : ℝ), c + a ≤ c + b
@@ -59,9 +60,11 @@ Los teoremas utilizados son los siguientes:
 + mul_sub : a * (b - c) = a * b - a * c
 + nat.succ_pos : 0 < succ n
 + neg_square : (-z)^2 = z^2
++ or_comm : a ∨ b ↔ b ∨ a
 + or.elim : P ∨ Q → (P → R) → (Q → R) → R
 + or.rec : (P → R) → (Q → R) → P ∨ Q → R
 + pow_two : a^2 = a * a
++ pow_two_sub_pow_two : a ^ 2 - b ^ 2 = (a + b) * (a - b)
 + rfl : a = a
 + sub_eq_zero : a - b = 0 ↔ a = b
 + sub_nonneg : 0 ≤ a - b ↔ b ≤ a

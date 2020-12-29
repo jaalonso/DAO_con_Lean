@@ -68,7 +68,7 @@ assume h1: a = a * b,
 have h2 : a * (1 - b) = 0,
   by linarith,
 have h3 : a = 0 ∨ 1 - b = 0,
-  from zero_eq_mul.mp (eq.symm h2),
+  from mul_eq_zero.mp h2,
 or.elim h3
   ( assume h3a : a = 0,
     show a = 0 ∨ b = 1,
