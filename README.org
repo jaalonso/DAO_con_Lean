@@ -217,11 +217,11 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_∃k,nIk+1⊢nM0.lean" src lean :lines "7-"
 
 *** Propiedad transitiva de la divisibilidad
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean][sesión en Lean Web]] y al [[https://youtu.be/dMmxcKowm7s][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad_transitiva_de_la_divisibilidad.lean" src lean :lines "7-"
 
 *** Propiedad: Si divide a los sumandos divide a la suma
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean][sesión en Lean Web]] y al [[https://youtu.be/B1qZbIjLWfs][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma.lean" src lean :lines "7-"
 
 *** Propiedad: Si divide a los sumandos divide a la suma (con condicionales)
@@ -229,7 +229,7 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_Si_divide_a_los_sumandos_divide_a_la_suma_con_condicionales.lean" src lean :lines "7-"
 
 *** CNS de divisible por cero
-+ Enlaces al [[./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/CNS_de_divisible_por_cero.lean][sesión en Lean Web]] y al [[https://youtu.be/-McG4qufGuw][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean" src lean :lines "7-"
 
 *** Propiedad: Si (g ∘ f) es suprayectiva, entonces g es suprayectiva
