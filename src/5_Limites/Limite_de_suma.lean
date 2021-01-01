@@ -52,36 +52,7 @@ begin
   clear hn hn₁ hn₂ Nu Nv,
   calc |(u + v) n - (a + b)|
        = |u n + v n - (a + b)|    : rfl
-   ... = |(u n - a) + (v n -  b)| : by { congr, ring }
-   ... ≤ |u n - a| + |v n -  b|   : by apply abs_add
-   ... ≤ ε / 2 + ε / 2            : by linarith
-   ... = ε                        : by apply add_halves,
-end
-
--- 1ª demostración
-example
-  (hu : limite u a)
-  (hv : limite v b)
-  : limite (u + v) (a + b) :=
-begin
-  intros ε hε,
-  have hε2 : 0 < ε / 2,
-    { linarith },
-  cases hu (ε / 2) hε2 with Nu hNu,
-  cases hv (ε / 2) hε2 with Nv hNv,
-  clear hu hv hε2 hε,
-  use max Nu Nv,
-  intros n hn,
-  have hn₁ : n ≥ Nu,
-    { exact le_of_max_le_left hn },
-  specialize hNu n hn₁,
-  have hn₂ : n ≥ Nv,
-    { exact le_of_max_le_right hn },
-  specialize hNv n hn₂,
-  clear hn hn₁ hn₂ Nu Nv,
-  calc |(u + v) n - (a + b)|
-       = |u n + v n - (a + b)|    : rfl
-   ... = |(u n - a) + (v n -  b)| : by { congr, ring }
+   ... = |(u n - a) + (v n -  b)| : by {congr, ring}
    ... ≤ |u n - a| + |v n -  b|   : by apply abs_add
    ... ≤ ε / 2 + ε / 2            : by linarith
    ... = ε                        : by apply add_halves,
@@ -110,12 +81,33 @@ begin
   intros n hn,
   cases max_ge_iff.mp hn with hn₁ hn₂,
   have cota₁ : |u n - a| ≤ ε/2,
-    from hNu n (by linarith),
+    from hNu n hn₁,
   have cota₂ : |v n - b| ≤ ε/2,
-    from hNv n (by linarith),
+    from hNv n hn₂,
   calc |(u + v) n - (a + b)|
        = |u n + v n - (a + b)|   : rfl
    ... = |(u n - a) + (v n - b)| : by { congr, ring }
    ... ≤ |u n - a| + |v n - b|   : by apply abs_add
    ... ≤ ε                       : by linarith,
+end
+
+-- 3ª demostración
+example
+  (hu : limite u a)
+  (hv : limite v b)
+  : limite (u + v) (a + b) :=
+begin
+  intros ε hε,
+  cases hu (ε/2) (by linarith) with Nu hNu,
+  cases hv (ε/2) (by linarith) with Nv hNv,
+  clear hu hv hε,
+  use max Nu Nv,
+  intros n hn,
+  cases max_ge_iff.mp hn with hn₁ hn₂,
+  calc |(u + v) n - (a + b)|
+       = |u n + v n - (a + b)|   : rfl
+   ... = |(u n - a) + (v n - b)| : by { congr, ring }
+   ... ≤ |u n - a| + |v n - b|   : by apply abs_add
+   ... ≤ ε/2 + ε/2               : add_le_add (hNu n hn₁) (hNv n hn₂)
+   ... = ε                       : by simp
 end
