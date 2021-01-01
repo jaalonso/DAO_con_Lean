@@ -24,6 +24,7 @@ Los teoremas utilizados son los siguientes:
 + and_imp : (P ∧ Q → R) ↔ (P → (Q → R))
 + antisymm : a ≺ b → b ≺ a → a = b
 + congr_arg : a₁ = a₂ → f a₁ = f a₂
++ dvd_add : a ∣ b → a ∣ c → a ∣ b + c
 + dvd_antisymm : a ∣ b → b ∣ a → a = b
 + dvd_gcd_iff : c ∣ gcd a b ↔ c ∣ a ∧ c ∣ b
 + dvd_refl: a ∣ a
@@ -76,6 +77,7 @@ Los teoremas utilizados son los siguientes:
 + surjective.of_comp : surjective (f ∘ g) → surjective f
 + two_mul : 2 * a = a + a
 + zero_add : 0 + a = a
++ zero_dvd_iff : 0 ∣ a ↔ a = 0
 + zero_eq_mul : 0 = a * b ↔ a = 0 ∨ b = 0
 + zero_mul : 0 * a = 0
 #+end_src

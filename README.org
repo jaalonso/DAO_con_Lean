@@ -233,17 +233,19 @@ reescritura.
 #+INCLUDE: "./src/3_Cuantificadores/CNS_de_divisible_por_cero.lean" src lean :lines "7-"
 
 *** Propiedad: Si (g ∘ f) es suprayectiva, entonces g es suprayectiva
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean][sesión en Lean Web]] y al [[https://youtu.be/RvCnoW0wSb4][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_Si_(g.f)_es_suprayectiva,_entonces_g_es_suprayectiva.lean" src lean :lines "7-"
 
 *** Propiedad: La composición de funciones suprayectivas es suprayectiva
-+ Enlaces al [[./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean][sesión en Lean Web]] y al [[https://youtu.be/QUiEG5ziXjA][vídeo]].
 #+INCLUDE: "./src/3_Cuantificadores/Propiedad:_La_composicion_de_funciones_suprayectivas_es_suprayectiva.lean" src lean :lines "7-"
 
 * Límites de sucesiones
 
+** Límites de sucesiones
+
 *** Límite de sucesiones constantes
-+ Enlaces al [[./src/5_Limites/Limite_de_sucesiones_constantes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Limite_de_sucesiones_constantes.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/5_Limites/Limite_de_sucesiones_constantes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Limite_de_sucesiones_constantes.lean][sesión en Lean Web]] y al [[https://youtu.be/wv_4RcgrRhE][vídeo]].
 #+INCLUDE: "./src/5_Limites/Limite_de_sucesiones_constantes.lean" src lean :lines "7-"
 
 *** Si el límite de la sucesión u es c y c > 0, entonces u(n) ≥ c/2 a partir de un N

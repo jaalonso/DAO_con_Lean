@@ -2,30 +2,28 @@
 -- =================================================================
 
 import data.real.basic
-
 open function
 
 variables (f g : ℝ → ℝ)
+
+-- #print surjective
+-- #print notation (∘)
 
 -- ----------------------------------------------------
 -- Ejercicio. Demostrar que si (g ∘ f) es suprayectiva,
 -- entonces g también lo es
 -- ----------------------------------------------------
 
--- #print surjective
--- #print notation (∘)
-
 -- 1ª demostración
 example
   (h : surjective (g ∘ f))
   : surjective g :=
 begin
-  unfold surjective,
+  -- unfold surjective at *,
   intro y,
-  unfold surjective at h,
   specialize h y,
   cases h with x hx,
-  unfold comp at hx,
+  -- unfold comp at hx,
   use f x,
   exact hx,
 end
@@ -38,8 +36,7 @@ begin
   intro y,
   specialize h y,
   cases h with x hx,
-  use f x,
-  exact hx,
+  exact ⟨f x, hx⟩,
 end
 
 -- 3ª demostración

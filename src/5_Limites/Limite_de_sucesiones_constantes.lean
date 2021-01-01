@@ -30,69 +30,51 @@ def limite : (ℕ → ℝ) → ℝ → Prop :=
 
 -- 1ª demostración
 example :
-  (∀ n, u n = c) → limite u c :=
+  limite (λ n, c) c :=
 begin
-  intro hu,
-  unfold limite,
-  intro ε,
-  intro hε,
+  -- unfold limite,
+  intros ε hε,
   use 0,
-  intro n',
-  intro hn',
-  specialize hu n',
-  rw hu,
+  intros n hn,
+  -- dsimp,
   norm_num,
   linarith,
 end
 
 -- 2ª demostración
 example :
-  (∀ n, u n = c) → limite u c :=
+  limite (λ n, c) c :=
 begin
-  intros hu ε hε,
+  intros ε hε,
   use 0,
-  intros n' hn',
-  rw hu n',
+  intros n hn,
   norm_num,
   linarith,
 end
 
 -- 3ª demostración
 example :
-  (∀ n, u n = c) → limite u c :=
+  limite (λ n, c) c :=
 begin
-  intros hu ε hε,
+  intros ε hε,
   use 0,
   intros n hn,
-  rw hu,
-  norm_num,
-  linarith,
-end
-
--- 4ª demostración
-example :
-  (∀ n, u n = c) → limite u c :=
-begin
-  intros hu ε hε,
-  use 0,
-  intros n' hn',
-  calc |u n' - c|
-       = |c - c|  : by rw hu
+  calc |(λ n, c) n - c|
+       = |c - c|  : rfl
    ... = 0        : by norm_num
    ... ≤ ε        : by linarith,
 end
 
--- 5ª demostración
+-- 4ª demostración
 example :
-  (∀ n, u n = c) → limite u c :=
-assume hu : ∀ n, u n = c,
+  limite (λ n, c) c :=
 assume ε,
 assume hε : ε > 0,
 exists.intro 0
-  ( assume n',
-    assume hn' : n' ≥ 0,
-    show |u n' - c| ≤ ε, from
-      calc |u n' - c|
-           = |c - c|  : by rw hu
+  ( assume n,
+    assume hn : n ≥ 0,
+    show |(λ n, c) n - c| ≤ ε, from
+      calc |(λ n, c) n - c|
+           = |c - c|  : rfl
        ... = 0        : by norm_num
        ... ≤ ε        : by linarith)
