@@ -111,3 +111,22 @@ begin
    ... ≤ ε/2 + ε/2               : add_le_add (hNu n hn₁) (hNv n hn₂)
    ... = ε                       : by simp
 end
+
+-- 4ª demostración
+example
+  (hu : limite u a)
+  (hv : limite v b)
+  : limite (u + v) (a + b) :=
+begin
+  intros ε hε,
+  cases hu (ε/2) (by linarith) with Nu hNu,
+  cases hv (ε/2) (by linarith) with Nv hNv,
+  use max Nu Nv,
+  intros n hn,
+  rw max_ge_iff at hn,
+  calc |(u + v) n - (a + b)|
+       = |u n + v n - (a + b)|   : rfl
+   ... = |(u n - a) + (v n - b)| : by { congr, ring }
+   ... ≤ |u n - a| + |v n - b|   : by apply abs_add
+   ... ≤ ε                       : by linarith [hNu n (by linarith), hNv n (by linarith)],
+end
