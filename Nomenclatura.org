@@ -1,0 +1,55 @@
+La nomenclatura de los teoremas en inglés sigue las reglas de
+[[https://leanprover-community.github.io/contribute/naming.html][Mathlib naming conventions]]. En su adaptación al castellano su usará:
++ =de= (en lugar de =of=) para separar las hipótesis de la conclusión. Por
+  ejemplo, =mn_no_mye= (en lugar de =lt_of_not_ge=)
+
+|------------+------------+------------------------------------|
+| Castellano | Inglés     | Significado                        |
+|------------+------------+------------------------------------|
+| =adi=      | =add=      | adición (o suma)                   |
+| =antisim=  | =antisymm= | antisimétrica                      |
+| =asim=     | =asymm=    | asimética                          |
+| =asoc=     | =assoc=    | asociativa                         |
+| =cancel=   | =cancel=   | cancelativa                        |
+| =cero=     | =zero=     | cero                               |
+| =congr=    | =congr=    | congruencia                        |
+| =conj=     | =and=      | conjunción                         |
+| =conm=     | =comm=     | conmutativa                        |
+| =dcha=     | =right=    | derecha                            |
+| =def=      | =def=      | definición                         |
+| =disy=     | =or=       | disyunción                         |
+| =elim=     | =elim=     | eliminación                        |
+| =existe=   | =exists=   | existe                             |
+| =falso=    | =false=    | falso                              |
+| =intro=    | =intro=    | introducción                       |
+| =iny=      | =inj=      | inyectiva                          |
+| =irefl=    | =irrefl=   | irreflexiva                        |
+| =izq=      | =left=     | izquierda                          |
+| =mismo=    | =self=     | mismo                              |
+| =mn=       | =lt=       | menor                              |
+| =mne=      | =le=       | menor o igual                      |
+| =mp=       | =mp=       | implicación de izquierda a derecha |
+| =mpr=      | =mpr=      | implicación de derecha a izquierda |
+| =mul=      | =mul=      | multiplicación (o producto)        |
+| =my=       | =gt=       | mayor                              |
+| =mye=      | =ge=       | mayor o igual                      |
+| =neg=      | =neg=      | negativo                           |
+| =nig=      | =ne=       | no igual                           |
+| =no=       | =not=      | no                                 |
+| =noneg=    | =nonneg=   | no negativo                        |
+| =nopos=    | =nonpos=   | no positivo                        |
+| =o=        | =or=       | o                                  |
+| =pos=      | =pos=      | positivo                           |
+| =pred=     | =pred=     | predecesor                         |
+| =rec=      | =rec=      | recursor                           |
+| =refl=     | =refl=     | reflexiva                          |
+| =sim=      | =symm=     | simétrica                          |
+| =sub=      | =sub=      | substracción (o resta)             |
+| =suc=      | =succ=     | sucesor                            |
+| =sust=     | =subst=    | sustitución                        |
+| =syss=     | =iff=      | si y sólo si                       |
+| =trans=    | =trans=    | transitiva                         |
+| =uno=      | =one=      | uno                                |
+| =verdad=   | =true=     | verdad                             |
+|------------+------------+------------------------------------|
+#+TBLFM: $2=pos
