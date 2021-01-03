@@ -137,7 +137,7 @@ have h2 : ∀ ε, ε > 0 → |x| ≤ ε,
 abs_eq_zero.mp (eq_of_le_of_forall_le_of_dense h1 h2)
 
 -- 10ª demostración
-example
+lemma cero_de_abs_mn_todos
   (h : ∀ ε > 0, |x| < ε)
   : x = 0 :=
 abs_eq_zero.mp
