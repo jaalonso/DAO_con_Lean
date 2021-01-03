@@ -312,5 +312,5 @@ reescritura.
 ** [[./Estilos.org][Estilos de demostración]]
 #+INCLUDE: "./Estilos.org"
 
-** [[./Nomenclatura.or][Nomenclatura]]
+** [[./Nomenclatura.org][Nomenclatura]]
 #+INCLUDE: "./Nomenclatura.org"
