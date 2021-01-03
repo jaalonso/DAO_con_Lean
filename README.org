@@ -260,6 +260,11 @@ reescritura.
 + Enlaces al [[./src/5_Limites/Teorema_del_emparedado.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Teorema_del_emparedado.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/5_Limites/Teorema_del_emparedado.lean" src lean :lines "7-"
 
+*** Si |x| < ε, para todo ε > 0, entonces x = 0
++ Enlaces al [[./src/5_Limites/cero_de_abs_mn_todos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/cero_de_abs_mn_todos.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/cero_de_abs_mn_todos.lean" src lean :lines "7-"
+
+
 *** Igualdad a partir de acotaciones del valor absoluto de la diferencia
 + Enlaces al [[./src/5_Limites/Igualdad_a_partir_de_acotaciones_del_valor_absoluto_de_la_diferencia.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Igualdad_a_partir_de_acotaciones_del_valor_absoluto_de_la_diferencia.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/5_Limites/Igualdad_a_partir_de_acotaciones_del_valor_absoluto_de_la_diferencia.lean" src lean :lines "7-"

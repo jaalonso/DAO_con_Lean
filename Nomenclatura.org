@@ -6,6 +6,7 @@ La nomenclatura de los teoremas en inglés sigue las reglas de
 |------------+------------+------------------------------------|
 | Castellano | Inglés     | Significado                        |
 |------------+------------+------------------------------------|
+| =abs=      | =abs=      | valor absoluto                     |
 | =adi=      | =add=      | adición (o suma)                   |
 | =antisim=  | =antisymm= | antisimétrica                      |
 | =asim=     | =asymm=    | asimética                          |
@@ -21,6 +22,7 @@ La nomenclatura de los teoremas en inglés sigue las reglas de
 | =elim=     | =elim=     | eliminación                        |
 | =existe=   | =exists=   | existe                             |
 | =falso=    | =false=    | falso                              |
+| =ig=       | =eq=       | igual                              |
 | =intro=    | =intro=    | introducción                       |
 | =iny=      | =inj=      | inyectiva                          |
 | =irefl=    | =irrefl=   | irreflexiva                        |
@@ -48,6 +50,7 @@ La nomenclatura de los teoremas en inglés sigue las reglas de
 | =suc=      | =succ=     | sucesor                            |
 | =sust=     | =subst=    | sustitución                        |
 | =syss=     | =iff=      | si y sólo si                       |
+| =todos=    | =all=      | todos                              |
 | =trans=    | =trans=    | transitiva                         |
 | =uno=      | =one=      | uno                                |
 | =verdad=   | =true=     | verdad                             |
