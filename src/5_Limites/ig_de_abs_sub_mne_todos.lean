@@ -17,60 +17,24 @@ notation `|`x`|` := abs x
 -- ε > 0, entonces x = y.
 -- ----------------------------------------------------
 
--- Se usará el lema demostrado en
-lemma cero_de_abs_mn_todos
+-- Se usará el lema demostrado anteriormente
+lemma cero_de_abs_mne_todos
   (h : ∀ ε > 0, |x| ≤ ε)
   : x = 0 :=
 abs_eq_zero.mp
   (eq_of_le_of_forall_le_of_dense (abs_nonneg x) h)
 
--- ?ª demostración
+-- 1ª demostración
 example
   (h : ∀ ε > 0, |x - y| ≤ ε)
   : x = y :=
 begin
   rw ← sub_eq_zero,
-  exact cero_de_abs_mn_todos (x - y) h,
+  exact cero_de_abs_mne_todos (x - y) h,
 end
 
--- ?ª demostración
-example
+-- 2ª demostración
+lemma ig_de_abs_sub_mne_todos
   (h : ∀ ε > 0, |x - y| ≤ ε)
   : x = y :=
-sub_eq_zero.mp (cero_de_abs_mn_todos (x - y) h)
-
--- ?ª demostración
-example :
-  (∀ ε > 0, |x - y| ≤ ε) → x = y :=
-begin
-  intro h,
-  apply eq_of_abs_sub_nonpos,
-  by_contradiction h1,
-  push_neg at h1,
-  have h2 : |x - y|/2 > 0,
-    { exact half_pos h1, },
-  specialize h (|x - y|/2) h2,
-  have h3 : |x - y| > |x - y|/2 ,
-    { exact half_lt_self h1, },
-  contrapose h3,
-  exact not_lt_of_le h,
-end
-
--- ?ª demostración
-example :
-  (∀ ε > 0, |x - y| ≤ ε) → x = y :=
-assume h1 : ∀ ε > 0, |x - y| ≤ ε,
-suffices |x - y| ≤ 0,
-  from eq_of_abs_sub_nonpos,
-sorry
-
-lemma ig_de_abs_sub_mne_todos :
-  (∀ ε > 0, |x - y| ≤ ε) → x = y :=
-begin
-  intro h,
-  apply eq_of_abs_sub_nonpos,
-  by_contradiction H,
-  push_neg at H,
-  specialize h (|x-y|/2) (by linarith),
-  linarith,
-end
+sub_eq_zero.mp (cero_de_abs_mne_todos (x - y) h)

@@ -265,16 +265,15 @@ reescritura.
 #+INCLUDE: "./src/5_Limites/cero_de_abs_mn_todos.lean" src lean :lines "7-"
 
 *** Si |x| ≤ ε, para todo ε > 0, entonces x = 0
-+ Enlaces al [[./src/5_Limites/cero_de_abs_mne_todos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/cero_de_abs_mne_todos.lean][sesión en Lean Web]] y al [[https://youtu.be/YN0F9ldAVCw][vídeo]].
++ Enlaces al [[./src/5_Limites/cero_de_abs_mne_todos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/cero_de_abs_mne_todos.lean][sesión en Lean Web]].
 #+INCLUDE: "./src/5_Limites/cero_de_abs_mne_todos.lean" src lean :lines "7-"
 
 *** Si |x - y| ≤ ε, para todo ε > 0, entonces x = y
-+ Enlaces al [[./src/5_Limites/ig_de_abs_sub_mne_todos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/ig_de_abs_sub_mne_todos.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/5_Limites/ig_de_abs_sub_mne_todos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/ig_de_abs_sub_mne_todos.lean][sesión en Lean Web]] y al [[https://youtu.be/_k7e173__6o][vídeo]].
 #+INCLUDE: "./src/5_Limites/ig_de_abs_sub_mne_todos.lean" src lean :lines "7-"
 
-
-*** Unicidad del límite de las sucesiones convergentes
-+ Enlaces al [[./src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean][sesión en Lean Web]] y al vídeo.
+*** Unicidad del límite de las sucesiones
++ Enlaces al [[./src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean][sesión en Lean Web]] y al [[https://youtu.be/nj2xM9s9ygY][vídeo]].
 #+INCLUDE: "./src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean" src lean :lines "7-"
 
 
