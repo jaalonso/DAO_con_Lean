@@ -71,6 +71,7 @@ Los teoremas utilizados son los siguientes:
 + pow_two_sub_pow_two : a ^ 2 - b ^ 2 = (a + b) * (a - b)
 + rfl : a = a
 + sub_eq_zero : a - b = 0 ↔ a = b
++ sub_le_sub_right : a ≤ b → a - c ≤ b - c
 + sub_nonneg : 0 ≤ a - b ↔ b ≤ a
 + sub_nonpos : a - b ≤ 0 ↔ a ≤ b
 + sub_self : a - a = 0

@@ -276,6 +276,13 @@ reescritura.
 + Enlaces al [[./src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean][sesión en Lean Web]] y al [[https://youtu.be/nj2xM9s9ygY][vídeo]].
 #+INCLUDE: "./src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean" src lean :lines "7-"
 
+*** Los supremos de las sucesiones no decrecientes son sus límites
++ Enlaces al [[./src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean" src lean :lines "7-"
+
+** Subsucesiones
+
+
 
 * Negación
 
