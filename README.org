@@ -277,15 +277,18 @@ reescritura.
 #+INCLUDE: "./src/5_Limites/Unicidad_del_limite_de_las_sucesiones_convergentes.lean" src lean :lines "7-"
 
 *** Los supremos de las sucesiones no decrecientes son sus límites
-+ Enlaces al [[./src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean][sesión en Lean Web]] y al [[https://youtu.be/XiVr8m4NYCc][vídeo]].
 #+INCLUDE: "./src/5_Limites/Los_supremos_de_las_sucesiones_no_decrecientes_son_sus_limites.lean" src lean :lines "7-"
 
 ** Subsucesiones
 
 *** La función identidad es menor o igual que la función de extracción
-+ Enlaces al [[./src/5_Limites/id_mne_extraccion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/id_mne_extraccion.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/5_Limites/id_mne_extraccion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/id_mne_extraccion.lean][sesión en Lean Web]] y al [[https://youtu.be/xS_dJyL6OZA][vídeo]].
 #+INCLUDE: "./src/5_Limites/id_mne_extraccion.lean" src lean :lines "7-"
 
+*** Las funciones de extracción no están acotadas
++ Enlaces al [[./src/5_Limites/extraccion_mye.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/extraccion_mye.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/extraccion_mye.lean" src lean :lines "7-"
 
 
 
