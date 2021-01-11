@@ -287,9 +287,12 @@ reescritura.
 #+INCLUDE: "./src/5_Limites/id_mne_extraccion.lean" src lean :lines "7-"
 
 *** Las funciones de extracción no están acotadas
-+ Enlaces al [[./src/5_Limites/extraccion_mye.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/extraccion_mye.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/5_Limites/extraccion_mye.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/extraccion_mye.lean][sesión en Lean Web]] y al [[https://youtu.be/zy8cWOQnJXo][vídeo]].
 #+INCLUDE: "./src/5_Limites/extraccion_mye.lean" src lean :lines "7-"
 
+*** Si a es un punto de acumulación de u, entonces ∀ ε > 0, ∀ N, ∃ n ≥ N, |u n - a| ≤ ε
++ Enlaces al [[./src/5_Limites/cerca_acumulacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/cerca_acumulacion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/cerca_acumulacion.lean" src lean :lines "7-"
 
 
 * Negación

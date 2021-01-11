@@ -6,8 +6,6 @@ open nat
 
 variable {φ : ℕ → ℕ}
 
--- set_option pp.structure_projections false
-
 -- ----------------------------------------------------
 -- Nota. Se usará la siguiente definición y lema
 -- estudiado anteriormente.
@@ -155,7 +153,7 @@ assume N N',
                     (id_mne_extraccion h (max N N'))⟩
 
 -- 11ª demostración
-example
+lemma extraccion_mye
   (h : extraccion φ)
   : ∀ N N', ∃ n ≥ N', φ n ≥ N :=
 λ N N',
