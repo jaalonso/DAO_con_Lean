@@ -294,6 +294,10 @@ reescritura.
 + Enlaces al [[./src/5_Limites/cerca_acumulacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/cerca_acumulacion.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/5_Limites/cerca_acumulacion.lean" src lean :lines "7-"
 
+*** Límite de subsucesiones
++ Enlaces al [[./src/5_Limites/limite_subsucesion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/limite_subsucesion.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/limite_subsucesion.lean" src lean :lines "7-"
+
 
 * Negación
 
