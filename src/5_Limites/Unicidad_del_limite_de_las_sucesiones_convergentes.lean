@@ -62,7 +62,7 @@ begin
 end
 
 -- 2ª demostración
-example
+lemma unicidad_limite
   (ha : limite u a)
   (hb : limite u b)
   : a = b :=
@@ -72,7 +72,6 @@ begin
   cases ha (ε/2) (by linarith) with Na hNa,
   cases hb (ε/2) (by linarith) with Nb hNb,
   let N := max Na Nb,
-  clear ha hb,
   specialize hNa N (by finish),
   specialize hNb N (by finish),
   calc |a - b|

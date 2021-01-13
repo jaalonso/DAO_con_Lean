@@ -143,7 +143,6 @@ example
   : limite (u ∘ φ) a :=
 begin
   intros ε hε,
-  unfold limite at h,
   cases h ε hε with N hN,
   use N,
   intros n hn,
@@ -153,7 +152,7 @@ begin
 end
 
 -- 9ª demostración
-example
+lemma limite_subsucesion
   (h : limite u a)
   (hφ : extraccion φ)
   : limite (u ∘ φ) a :=
