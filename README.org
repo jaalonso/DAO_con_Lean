@@ -302,7 +302,9 @@ reescritura.
 + Enlaces al [[./src/5_Limites/acumulacion_limite.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/acumulacion_limite.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/5_Limites/acumulacion_limite.lean" src lean :lines "7-"
 
-
+*** Toda sucesión convergente es una sucesión de Cauchy
++ Enlaces al [[./src/5_Limites/convergente_cauchy.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/convergente_cauchy.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/5_Limites/convergente_cauchy.lean" src lean :lines "7-"
 
 * Negación
 
