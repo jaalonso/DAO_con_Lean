@@ -324,6 +324,11 @@ reescritura.
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean" src lean :lines "7-"
 
+*** La relación menor es irreflexiva en los reales
++ Enlaces al [[./src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean" src lean :lines "7-"
+
+
 ** Principio del tercio excluso y reducción al absurdo
 
 *** Eliminación de la doble negación
