@@ -354,7 +354,7 @@ reescritura.
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean" src lean :lines "7-"
 
-*** Un numero es par syss lo es su cuadrado
+*** Un número es par syss lo es su cuadrado
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean" src lean :lines "7-"
 
