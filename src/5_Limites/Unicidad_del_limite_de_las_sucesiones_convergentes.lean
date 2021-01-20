@@ -80,3 +80,26 @@ begin
    ... = |u N - a| + |u N - b|   : by rw abs_sub
    ... ≤ ε                       : by linarith [hNa, hNb]
 end
+
+-- 3ª demostración
+example
+  (ha : limite u a)
+  (hb : limite u b)
+  : a = b :=
+begin
+  by_contradiction H,
+  change a ≠ b at H,
+  have h1 : |a - b| > 0,
+    exact abs_pos.mpr (sub_ne_zero_of_ne H),
+  cases ha (|a - b|/4) (by linarith) with N hN,
+  cases hb (|a - b|/4) (by linarith) with N' hN',
+  let N₀ := max N N',
+  specialize hN N₀ (le_max_left _ _),
+  specialize hN' N₀ (le_max_right _ _),
+  have h2 : |a - b| < |a - b |,
+    calc  |a - b| = |(a - u N₀) + (u N₀ - b)| : by ring
+    ... ≤ |a - u N₀| + |u N₀ - b|             : by apply abs_add
+    ... = |u N₀ - a| + |u N₀ - b|             : by rw abs_sub
+    ... < |a - b|                             : by linarith,
+  linarith,
+end

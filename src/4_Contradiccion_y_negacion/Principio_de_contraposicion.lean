@@ -55,7 +55,20 @@ example :
 ⟨λ hPQ hnQ hP, hnQ (hPQ hP),
  λ hQP hP, by_contradiction (λ hnQ , absurd hP (hQP hnQ))⟩
 
--- 4ª demostración
+-- 5ª demostración
+example :
+  (P → Q) ↔ (¬Q → ¬P) :=
+begin
+  split,
+  { intros h1 h2 h3,
+    apply h2,
+    exact h1 h3, },
+  { intro h4,
+    contrapose,
+    exact h4, },
+end
+
+-- 6ª demostración
 example :
   (P → Q) ↔ (¬Q → ¬P) :=
 iff.intro
@@ -76,26 +89,26 @@ iff.intro
           show false,
             from hnP hP))
 
--- 5ª demostración
+-- 7ª demostración
 example :
   (P → Q) ↔ (¬Q → ¬P) :=
 iff.intro
   (λ hPQ hnQ hP, hnQ (hPQ hP))
   (λ hQP hP, by_contradiction (λ hnQ, (hQP hnQ) hP))
 
--- 6ª demostración
+-- 8ª demostración
 example :
   (P → Q) ↔ (¬Q → ¬P) :=
 -- by library_search
 not_imp_not.symm
 
--- 7ª demostración
+-- 9ª demostración
 example :
   (P → Q) ↔ (¬Q → ¬P) :=
 -- by hint
 by tauto
 
--- 8ª demostración
+-- 10ª demostración
 example :
   (P → Q) ↔ (¬Q → ¬P) :=
 by finish

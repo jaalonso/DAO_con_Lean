@@ -325,9 +325,12 @@ reescritura.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Introduccion_de_la_doble_negacion.lean" src lean :lines "7-"
 
 *** La relación menor es irreflexiva en los reales
-+ Enlaces al [[./src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean][sesión en Lean Web]] y al [[https://youtu.be/2rs3fj-0RLU][vídeo]].
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/La_relacion_menor_es_irreflexiva_en_los_reales.lean" src lean :lines "7-"
 
+*** Demostración con hipótesis inconsistentes
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Demostracion_con_hipotesis_inconsistentes.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Demostracion_con_hipotesis_inconsistentes.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Demostracion_con_hipotesis_inconsistentes.lean" src lean :lines "7-"
 
 ** Principio del tercio excluso y reducción al absurdo
 
@@ -339,6 +342,10 @@ reescritura.
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Demostracion_por_casos.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Demostracion_por_casos.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Demostracion_por_casos.lean" src lean :lines "7-"
 
+*** Demostración de P ∨ Q, ¬(P ∧ Q) ⊢ ¬P ↔ Q
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Demostracion_de_P∨Q,¬(P∧Q)⊢¬P↔Q.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Demostracion_de_P∨Q,¬(P∧Q)⊢¬P↔Q.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Demostracion_de_P∨Q,¬(P∧Q)⊢¬P↔Q.lean" src lean :lines "7-"
+
 *** Principio de contraposición
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Principio_de_contraposicion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Principio_de_contraposicion.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Principio_de_contraposicion.lean" src lean :lines "7-"
@@ -346,6 +353,10 @@ reescritura.
 *** Definición del condicional mediante la negación y la disyunción
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Definicion_del_condicional_mediante_la_negacion_y_la_disyuncion.lean" src lean :lines "7-"
+
+*** Un numero es par syss lo es su cuadrado
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean" src lean :lines "7-"
 
 
 
