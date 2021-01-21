@@ -21,6 +21,7 @@
 + =(cases h e (by t) with a ha)=, cuando la hipótesis =h= es de la forma
   =∀ x, P x → ∃ y : U, Q x y= y la táctica =t= prueba =P e= entonces añade las
   hipótesis =a : U= y =ha : Q e a=. (Ver [[./src/5_Limites/CN_de_limite.lean][ejemplo]]).
++ =contrapose= transforma la conclusión en su contrapositiva. (Ver [[./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][ejemplo]]).
 + =exact h= concluye la demostración si =h= es del tipo de la conclusión.
 + =funext=, cuando la conclusión es una igualdad de funciones ~f = g~ de dominio
   =U= introduce la hipótesis =x : U= y cambia la conclusión a ~f x = g x~; es

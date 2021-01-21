@@ -358,6 +358,9 @@ reescritura.
 + Enlaces al [[./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean][sesión en Lean Web]] y al [[https://youtu.be/-PczmYJOFak][vídeo]].
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Un_numero_es_par_syss_lo_es_su_cuadrado.lean" src lean :lines "7-"
 
+*** Pruebas de la ley de De Morgan: ¬(P ∧ Q) ↔ ¬P ∨ ¬Q
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Pruebas_de_la_ley_de_De_Morgan.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Pruebas_de_la_ley_de_De_Morgan.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Pruebas_de_la_ley_de_De_Morgan.lean" src lean :lines "7-"
 
 
 * Apéndices

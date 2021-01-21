@@ -64,6 +64,8 @@ Los teoremas utilizados son los siguientes:
 + mul_sub : a * (b - c) = a * b - a * c
 + nat.succ_pos : 0 < succ n
 + neg_square : (-z)^2 = z^2
++ not_imp_not : (¬a → ¬b) ↔ (b → a)
++ odd_iff_not_even : odd n ↔ ¬ even n
 + or_comm : a ∨ b ↔ b ∨ a
 + or.elim : P ∨ Q → (P → R) → (Q → R) → R
 + or.rec : (P → R) → (Q → R) → P ∨ Q → R
