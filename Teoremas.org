@@ -25,6 +25,7 @@ Los teoremas utilizados son los siguientes:
 + and.left : P ∧ Q → P
 + and_imp : (P ∧ Q → R) ↔ (P → (Q → R))
 + antisymm : a ≺ b → b ≺ a → a = b
++ classical.em : p ∨ ¬p
 + congr_arg : a₁ = a₂ → f a₁ = f a₂
 + dvd_add : a ∣ b → a ∣ c → a ∣ b + c
 + dvd_antisymm : a ∣ b → b ∣ a → a = b

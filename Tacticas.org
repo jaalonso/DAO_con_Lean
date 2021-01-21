@@ -5,6 +5,8 @@
   conclusión =Q a=, cambia la conclusión a =P a=.
 + =assumption= concluye la demostración si la conclusión coincide con alguna de
   las hipótesis.
++ =(by_cases hP: P)= divide el objetivo en dos añadiendo la hipótesis =hP : P=
+  al primero y =hP : ¬P= al segundo.
 + =(cases h with h1 h2)=, cuando la hipótesis =h= es una equivalencia aplica la
   regla de eliminación de la equivalencia; es decir, si =h= es =(P ↔ Q)=,
   entonces elimina =h= y añade las hipótesis =(h1 : P → Q)= y =(h2 : Q → P)=.
