@@ -45,6 +45,7 @@
 + =nlinarith= es una extensión de =linarith= con un preprocesamiento que permite
   resolver problemas aritméticos no lineales.
 + =norm_num= normaliza expresiones aritméticas.
++ =push_neg= interioriza las negaciones en la conclusión.
 + =rcases h with ⟨a, rfl⟩=, cuando =h= es una fórmula existencial cuyo cuerpo es
   una ecuación, sustituye la variable del existencial por =a= y reescribe con la
   ecuación obtenida.

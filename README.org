@@ -363,7 +363,7 @@ reescritura.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Pruebas_de_la_ley_de_De_Morgan.lean" src lean :lines "7-"
 
 *** Negación del existencial: Caracterización de números no pares.
-+ Enlaces al [[./src/4_Contradiccion_y_negacion/Negacion_del_existencial.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Negacion_del_existencial.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Negacion_del_existencial.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Negacion_del_existencial.lean][sesión en Lean Web]] y al [[https://youtu.be/YNZRDMejdYA][vídeo]].
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/Negacion_del_existencial.lean" src lean :lines "7-"
 
 *** Negación del universal: Caracterización de funciones no pares
