@@ -66,6 +66,7 @@ Los teoremas utilizados son los siguientes:
 + nat.succ_pos : 0 < succ n
 + neg_square : (-z)^2 = z^2
 + not_imp_not : (¬a → ¬b) ↔ (b → a)
++ not_not : ¬¬a ↔ a
 + odd_iff_not_even : odd n ↔ ¬ even n
 + or_comm : a ∨ b ↔ b ∨ a
 + or.elim : P ∨ Q → (P → R) → (Q → R) → R
