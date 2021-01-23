@@ -14,6 +14,11 @@ variable (f : ℝ → ℝ)
 def par : (ℝ → ℝ) → Prop
 | f := ∀ x, f (-x) = f x
 
+-- ----------------------------------------------------
+-- Ejercicio 2. Demostrar que
+--    ¬par f ↔ ∃ x, f (-x) ≠ f x
+-- ----------------------------------------------------
+
 -- 1ª demostración
 example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
 begin
@@ -39,17 +44,24 @@ example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
 begin
   split,
   { contrapose,
-    intro h,
+    intro h1,
     rw not_not,
     intro x,
-    by_contradiction H,
-    apply h,
+    by_contradiction h2,
+    apply h1,
     use x, },
   { rintros ⟨x, hx⟩ h',
     exact hx (h' x) },
 end
 
 -- 3ª demostración
+example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
+begin
+  unfold par,
+  push_neg,
+end
+
+-- 4ª demostración
 example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
 iff.intro
   ( have h1 : ¬(∃ x, f (-x) ≠ f x) → ¬¬par f,
@@ -80,19 +92,12 @@ iff.intro
               show false,
                 from hx h3)})
 
--- 3ª demostración
-example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
-begin
-  unfold par,
-  push_neg,
-end
-
--- 4ª demostración
+-- 5ª demostración
 example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
 -- by suggest
 not_forall
 
--- 5ª demostración
+-- 6ª demostración
 example : ¬par f ↔ ∃ x, f (-x) ≠ f x :=
 -- by hint
 by simp [par]
