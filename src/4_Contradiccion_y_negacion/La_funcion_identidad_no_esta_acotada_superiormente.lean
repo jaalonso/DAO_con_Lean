@@ -2,7 +2,6 @@
 -- ==================================================
 
 import data.real.basic
-import tactic
 
 -- ----------------------------------------------------
 -- Ejercicio 1. Definir la función

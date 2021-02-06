@@ -136,3 +136,5 @@
 + Si =h : ∀ x : U, P x= y =a : U=, entonces =h a= es =P a=.
 + Si =h= es una igualdad entonces =h ▸ h'= es la expresión obtenida sustituyendo
   en h' el término izquierdo de =h= por el derecho.
++ =intro h, cases h with a ha= se reduce a =rintro \<a, ha\>=
++ =intros h1 h2, cases h2 with a ha= se reduce a =rintro h \<a, ha\>=.

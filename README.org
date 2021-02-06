@@ -375,9 +375,26 @@ reescritura.
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/La_funcion_duplicadora_no_es_par.lean" src lean :lines "7-"
 
 *** La función identidad no está acotada superiormente
-+ Enlaces al [[./src/4_Contradiccion_y_negacion/La_funcion_identidad_no_esta_acotada_superiormente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/La_funcion_identidad_no_esta_acotada_superiormente.lean][sesión en Lean Web]] y al vídeo.
++ Enlaces al [[./src/4_Contradiccion_y_negacion/La_funcion_identidad_no_esta_acotada_superiormente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/La_funcion_identidad_no_esta_acotada_superiormente.lean][sesión en Lean Web]] y al [[https://youtu.be/w6sLbvamoLM][vídeo]].
 #+INCLUDE: "./src/4_Contradiccion_y_negacion/La_funcion_identidad_no_esta_acotada_superiormente.lean" src lean :lines "7-"
 
+*** CS menor o igual que cero
++ Enlaces al [[./src/4_Contradiccion_y_negacion/CS_menor_o_igual_que_cero.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/CS_menor_o_igual_que_cero.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/CS_menor_o_igual_que_cero.lean" src lean :lines "7-"
+
+*** Equivalencia de definiciones de creciente
++ Enlaces al [[./src/4_Contradiccion_y_negacion/Equivalencia_de_definiciones_de_creciente.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/4_Contradiccion_y_negacion/Equivalencia_de_definiciones_de_creciente.lean][sesión en Lean Web]] y al vídeo.
+#+INCLUDE: "./src/4_Contradiccion_y_negacion/Equivalencia_de_definiciones_de_creciente.lean" src lean :lines "7-"
+
+* Límites y negaciones
+
++ [[./src/6_Limites_y_negaciones/Limites_y_negaciones.lean][Límites y negaciones]]
+#+INCLUDE: "./src/6_Limites_y_negaciones/Limites_y_negaciones.lean" src lean :lines "7-"
+
+* Ampliación de límites
+
++ [[./src/7_Ampliacion_de_limites/Ampliacion_de_limites.lean][Ampliación de límites]]
+#+INCLUDE: "./src/7_Ampliacion_de_limites/Ampliacion_de_limites.lean" src lean :lines "7-"
 
 
 
