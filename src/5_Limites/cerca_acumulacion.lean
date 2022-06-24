@@ -52,8 +52,9 @@ def punto_acumulacion : (ℕ → ℝ) → ℝ → Prop
 -- ----------------------------------------------------
 -- Ejercicio 2. Demostrar que si a es un punto de
 -- acumulación de u, entonces
---    ∀ ε > 0, ∀ N, ∃ n ≥ N, |u n - a| ≤ ε
+--    ∀ ε > 0, ∀ N, ∃ k ≥ N, |u k - a| ≤ ε
 -- ----------------------------------------------------
+
 
 -- 1ª demostración
 example

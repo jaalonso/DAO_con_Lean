@@ -116,6 +116,9 @@
 + =use a=, cuando la conclusión =∃ x : U, P x= y se tiene la hipótesis =x : U=,
   aplica la regla de introducción el cuantificador existencial; es decir, cambia
   la conclusión a =P a=.
++ =use h=, cuando la conclusión es =P ∧ Q= y =h= es una prueba de =P=, cambia
+  la conclusión a =Q=.
+
 
 ** Demostraciones estructuradas
 + =(assume h : P)=, cuando la conclusión es de la forma =(P → Q)=, añade la

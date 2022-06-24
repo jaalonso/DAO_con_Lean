@@ -7,7 +7,7 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./estilo.css" />
 #+LATEX_CLASS: book-noparts
 #+LATEX_CLASS_OPTIONS: [a4paper,12pt,twoside]
-
+ 
 # * Contenido                                                             :TOC:
 
 #+LATEX: \input preambulo
@@ -254,7 +254,7 @@ reescritura.
 + Enlaces al [[./src/5_Limites/CN_de_limite.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/CN_de_limite.lean][sesión en Lean Web]] y al vídeo.
 #+INCLUDE: "./src/5_Limites/CN_de_limite.lean" src lean :lines "7-"
 
-*** Limite de la suma de dos sucesiones convergentes
+*** Límite de la suma de dos sucesiones convergentes
 + Enlaces al [[./src/5_Limites/Limite_de_suma.lean][código]], a la [[https://leanprover-community.github.io/lean-web-editor/#url=https://raw.githubusercontent.com/jaalonso/DAO_con_Lean/master/src/5_Limites/Limite_de_suma.lean][sesión en Lean Web]] y al [[https://youtu.be/hkgSjpD8ttY][vídeo]].
 #+INCLUDE: "./src/5_Limites/Limite_de_suma.lean" src lean :lines "7-"
 

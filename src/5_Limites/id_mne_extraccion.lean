@@ -9,7 +9,7 @@ variable {φ : ℕ → ℕ}
 set_option pp.structure_projections false
 
 -- ----------------------------------------------------
--- Ejercicio 1. Para extraer una sucesión se aplica una
+-- Ejercicio 1. Para extraer una subsucesión se aplica una
 -- función de extracción que conserva el orden; por
 -- ejemplo, la subsucesión
 --    uₒ, u₂, u₄, u₆, ...
